@@ -1,0 +1,33 @@
+h1, h2 {
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+div {
+    background-color: rgb(241, 227, 215);
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: goldenrod;
+}
+
+.highlight {
+    color: rgb(226, 121, 121);
+}
+
+#main-title {
+    font-style: italic;
+    color: rgb(90, 4, 4);
+}
+
+#special-paragraph {
+    font-style: italic;
+}
