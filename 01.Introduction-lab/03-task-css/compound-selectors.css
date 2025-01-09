@@ -1,0 +1,61 @@
+/* Class and Element Combination */
+p.highlighted-paragraph {
+    color: lightskyblue;
+    font-size: 1.2em;
+}
+
+/* ID and Element Combination */
+div#special {
+    background-color: rgb(247, 184, 68);
+    padding: 1px;
+}
+
+/* Attribute and Class Combination */
+input[type="text"].styled-input {
+    border: 2px solid rgb(255, 0, 98);
+    padding: 4px;
+    font-size: 0.8em;
+    width: 200px;
+}
+
+.styled-list {
+    list-style-type: disc;
+}
+
+.styled-list .important {
+    color: rgb(60, 228, 228);
+    font-weight: bold;
+}
+
+.important-3 {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fancy-link {
+    text-decoration-line: underline;
+    color: blue;
+}
+
+.orange-link {
+    color: orange;
+    text-decoration-style: double;
+}
+
+/* Multiple Class Combination - the most specific selector overrides less specific ones*/
+.multi-class.special-paragraph {
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+ /* Specificity Demonstration -> More specific */
+p.multi-class.special-paragraph {
+    color: green; 
+}
+
+/* Most specific */
+body p.multi-class.special-paragraph {
+    color: blueviolet;
+}
