@@ -1,0 +1,35 @@
+header nav a,
+h1,
+h2,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(37, 30, 30);
+}
+
+header nav,
+section,
+footer {
+  margin: 10px;
+  padding: 0.5px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 20px 15px 20px 0px;;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0px 15px 0px 0px;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: aquamarine;
+}
