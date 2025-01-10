@@ -1,0 +1,79 @@
+/* Descendant selector */
+nav a.services-link {
+  font-style: italic;
+}
+
+/* Child Combinator: Direct .service-section within #content */
+nav li > a {
+  color: rgb(136, 22, 85);
+}
+
+#content > .service-section {
+  background-color: #d3edf8;
+  border-radius: 5px;
+}
+
+/* Adjacent Sibling Combinator: <Footer> immediately following a <section> */
+section + footer {
+  font-weight: bold;
+  color: rgb(119, 7, 72);
+}
+
+/* General Sibling Combinator: Any <section> following a <header> */
+header ~ section {
+  border: 1px solid red;
+  margin: 15px;
+}
+
+/* Attribute Selector: Inputs within a form of a specific class */
+form.classy input[type="text"] {
+  border: 2px solid #ff7300;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form.classy input[type="text"]:hover {
+  background-color: aqua;
+}
+
+form.classy input[type="password"] {
+  border: 2px solid #2a0fc4;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form.classy button[type="submit"]:hover {
+    background-color: chartreuse;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Pseudo-class Selector: Style first and last <a> in navigation */
+nav ul li:first-child a {
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
+
+nav ul li:last-child a {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Pseudo-element Selector: Decorative arrows before and after header text */
+header h1::before {
+  content: ">> ";
+  color: red;
+  font-weight: bold;
+}
+
+header h1::after {
+  content: " <<";
+  color: red;
+  font-weight: bold;
+}
+
+/* Styling Image */
+.image {
+  border: 5px solid red;
+}
