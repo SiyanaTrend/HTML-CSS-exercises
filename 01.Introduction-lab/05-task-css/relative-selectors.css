@@ -1,0 +1,47 @@
+/* Descendant Selector */
+section p {
+  color: #2c8392;
+  font-size: 16px;
+}
+.last a {
+    color: green;
+}
+
+/* Child Selector */
+.special-list > li:nth-child(2) {
+  color: #b81273;
+}
+
+.links > li a {
+  text-decoration: none;
+}
+
+
+/* Adjacent Sibling Selector */
+section article + article p {
+  background-color: #f1b8bd;
+}
+
+/* General Sibling Selector */
+h2.styled-heading ~ p {
+  color: blue;
+  font-size: 16px;
+}
+
+/* Using :has() */
+ul:has(li) {
+  list-style-type: none;
+}
+
+.special-list:has(li) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Style h2 immediately followed by a <p> */
+h2:has(+ p) {
+  font-size: 30px;
+  color: rgb(46, 88, 4);
+}
+
