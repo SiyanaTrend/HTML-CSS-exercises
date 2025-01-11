@@ -1,0 +1,41 @@
+h1,
+h2,
+summary {
+  color: brown;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(58, 4, 109);
+}
+
+time {
+  font-style: italic;
+}
+
+span.intro {
+  font-style: italic;
+}
+
+blockquote {
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+blockquote::before {
+    content: ' "';
+}
+
+blockquote::after {
+    content: ' "';
+}
+
+figure {
+  background-color: azure;
+  color: rgb(3, 2, 88);
+}
+
+p {
+    text-shadow: 2px 4px 10px red;
+}
