@@ -18,17 +18,17 @@ span.intro {
 }
 
 blockquote {
-    text-decoration: underline;
-    text-transform: lowercase;
-    font-style: italic;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-style: italic;
 }
 
 blockquote::before {
-    content: ' "';
+  content: open-quote;
 }
 
 blockquote::after {
-    content: ' "';
+  content: close-quote;
 }
 
 figure {
@@ -37,5 +37,5 @@ figure {
 }
 
 p {
-    text-shadow: 2px 4px 10px red;
+  text-shadow: 2px 4px 10px red;
 }
