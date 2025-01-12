@@ -53,7 +53,7 @@ p ~ p, h3 ~ p {
 }
 
 #aside-nav li {
-    display: inline;
+    display: inline-block;
     margin: 10px;
 }
 
