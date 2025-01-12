@@ -16,7 +16,6 @@ section p {
   text-decoration: none;
 }
 
-
 /* Adjacent Sibling Selector */
 section article + article p {
   background-color: #f1b8bd;
@@ -45,3 +44,8 @@ h2:has(+ p) {
   color: rgb(46, 88, 4);
 }
 
+/* Style every <li> except the first ones with pseudo-element ::before */
+* + li::before {
+  content: "&";
+  margin: 6px;
+}
