@@ -1,0 +1,77 @@
+header:has(h1) {
+    color: crimson;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: blueviolet;
+    text-shadow: 2px 4px 15px red;
+}
+
+#header-nav ul li {
+    list-style-type: square;
+    color: blueviolet;
+    padding: 2px;
+}
+
+#header-nav ul li a {
+    color: crimson;
+    text-decoration: none;
+    cursor: cell;
+}
+
+h3 {
+   outline: 2px dotted red; 
+   background-color: rgb(243, 223, 196);
+   color: rgb(170, 14, 35);
+   padding: 10px 0px 10px 35px;
+}
+
+h2:has( +p) {
+    color: crimson;
+    text-decoration: wavy overline rgb(102, 3, 102);
+}
+
+time, cite {
+    color: grey;
+    font-weight: bold;
+}
+
+span a {
+    font-size: medium;
+    font-weight: bold;
+    color: cornflowerblue;
+    background-color: rgb(8, 8, 70);
+}
+
+p ~ p, h3 ~ p {
+    text-indent: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#aside-nav li {
+    display: inline;
+    margin: 10px;
+}
+
+#aside-nav a {
+    text-decoration: none;
+    color:rgb(102, 3, 102);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#aside-nav a:hover {
+    text-decoration: underline;
+    color:rgb(216, 12, 114);
+    text-shadow: 2px 4px 20px rgb(19, 3, 78);
+}
+
+footer cite {
+    border: 2px dashed salmon;
+    border-radius: 20px;
+    font-style: italic;
+    
+}
