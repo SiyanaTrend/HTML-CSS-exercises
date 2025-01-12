@@ -49,6 +49,7 @@ p ~ p, h3 ~ p {
     font-style: italic;
     font-size: 18px;
     letter-spacing: 2px;
+    line-height: 25px;
 }
 
 #aside-nav li {
@@ -74,4 +75,8 @@ footer cite {
     border-radius: 20px;
     font-style: italic;
     
+}
+footer {
+    border-bottom: 2px solid red;
+    padding: 15px;
 }
