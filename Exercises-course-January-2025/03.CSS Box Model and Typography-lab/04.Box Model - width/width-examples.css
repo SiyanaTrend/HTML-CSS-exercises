@@ -1,0 +1,30 @@
+/*if
+body {
+    padding: 0;
+    margin: 0;
+} 
+the .percentage-width and .viewport-width would be with the same width,
+because html width = body width */
+
+div {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fixed-width {
+    width: 300px;
+}
+
+.percentage-width {
+    width: 50%; /* 50% of body element width */
+}
+
+.viewport-width {
+    width: 50vw; /* 50% of the root element width */
+}
+
+.min-max-width {
+    min-width: 100px;
+    max-width: 300px;
+}
