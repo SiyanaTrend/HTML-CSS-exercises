@@ -1,0 +1,66 @@
+html {
+  font: 16px/1.5 Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(192, 233, 247);
+}
+
+header {
+  background-color: rgb(220, 237, 248);
+  padding-left: 0.5em;
+  white-space: nowrap; /* Prevent wrapping of elements */
+}
+
+h1,
+nav {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle; /* Align them vertically */
+}
+
+nav ul {
+  list-style: none;
+  display: inline; /* Keep the list inline */
+  margin: 0;
+  padding: 0 1em;
+}
+
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin-left: 1.5em; /* Space between the list items on the left */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+section {
+  margin-left: 0.5em;
+}
+
+article {
+  display: inline-block; /* Places articles side by side */
+  box-sizing: border-box; /* Ensures padding and borders are included in width */
+  background-color: #eaf3fa;
+  padding: 1em; /* Adds padding inside the articles */
+  width: 48%; /* Sets a width for the articles to fit side by side */
+  margin-right: 2%; /* Adds spacing between the two articles */
+  height: 280px; /* Ensures all articles are of the same height */
+  overflow: hidden; /* Prevents content overflow */
+}
+
+article:last-child {
+  margin-right: 0; /* Removes margin for the last article in the row */
+}
+
+footer {
+  background-color: rgb(236, 244, 247);
+  padding: 0.7em 0 0.7em 1em;
+  margin: 1em 0;
+}
+
+footer > p {
+  padding: 0;
+  margin: 0;
+}
