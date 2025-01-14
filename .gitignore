@@ -37,3 +37,4 @@ out/                 # Изходни файлове
 desktop.ini          # Системен файл за Windows
 Exercises-course-January-2025/03.CSS Box Model and Typography-lab/01.Box Model - display/screenshot.png
 *.png
+*.txt
