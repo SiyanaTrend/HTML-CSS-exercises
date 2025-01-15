@@ -37,3 +37,4 @@ out/                 # Изходни файлове
 desktop.ini          # Системен файл за Windows
 *.png
 *.txt
+*.jpg
