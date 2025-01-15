@@ -1,0 +1,37 @@
+/* position: relative on the <section> is used to create a local positioning context for the absolutely positioned <div>.
+ This ensures the <div> is offset relative to the <section> rather than the entire viewport. */
+section {
+    border: 2px solid #000;
+    padding: 2em;
+    position: relative;
+}
+
+.item {
+    border: 1px solid #333;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em; 
+}
+
+/* In the relative example, the second <div> overlaps but still occupies its original space in the document flow. */
+.position-relative .item:nth-child(2) {
+    position: relative; 
+    left: 5em;
+    top: 2em;
+    background: lightgreen; 
+}
+
+/* In the absolute example, the second <div> completely ignores the flow and overlaps other elements. */
+.relative-absolute .item:nth-child(2) {
+    position: absolute;
+    left: 4em;
+    top: 4em;
+    background: lightgreen; 
+}
+
+/* By setting position: absolute on the <section>, the <section> is no longer positioned relative to the normal document flow. 
+Instead, it looks for the nearest ancestor with position: relative, absolute, or fixed.
+If no such ancestor exists, the <section> is positioned relative to the viewport (the browser window).
+It is the same with <div> - will no longer treat <section> as their reference.
+Instead, they will look for the next positioned ancestor above the <section>,
+or default to the viewport if no ancestor is positioned.  */
