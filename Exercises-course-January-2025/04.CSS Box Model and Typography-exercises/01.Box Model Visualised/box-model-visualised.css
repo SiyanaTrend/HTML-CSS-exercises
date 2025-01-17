@@ -1,14 +1,19 @@
+section {
+    width: 600px;
+    margin: 40px auto;
+}
+
 div {
-    
-    margin: 2em;
-    box-sizing: border-box;
+    padding: 2em;
     border: 1px dashed rgb(83, 79, 79);
+    position: relative;
 }
 
 p {
+    position: absolute;
+    top: 0.2em;
+    left: 0.2em;
     margin: 0;
-    padding-left: 1em;
-    padding-bottom: 0;
 }
 
 .margin {
@@ -16,18 +21,16 @@ p {
 }
 
 .border {
-    background: rgb(243, 191, 170);
+    background: blanchedalmond;
 }
 
 .padding {
-    text-align: left;
     background: lightgreen;
-    padding-bottom: 0;
 }
 
 .content {
     background: lightblue;
-    border: 1px dashed rgb(83, 79, 79);
     text-align: center;
-    padding: 2em;
 }
+
+
