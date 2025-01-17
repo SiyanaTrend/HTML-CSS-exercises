@@ -1,4 +1,6 @@
-section {
+/* Fisrt solution */
+
+/* section {
     width: 600px;
     margin: 40px auto;
 }
@@ -31,6 +33,54 @@ p {
 .content {
     background: lightblue;
     text-align: center;
+} */
+
+
+/* Second Solution */
+section {
+    width: 600px;
+    margin: 40px auto;
 }
 
+div {
+    padding: 2em;
+    border: 1px dashed rgb(83, 79, 79);
+    position: relative;
+}
+
+div::before {
+    display: block;
+    position: absolute;
+    top: 0.2em;
+    left: 0.5em;
+}
+
+.margin {
+    background: lightsalmon;
+}
+
+.margin::before {
+    content: 'margin';
+}
+
+.border {
+    background: blanchedalmond;
+}
+
+.border::before {
+    content: 'border';
+}
+
+.padding {
+    background: lightgreen;
+}
+
+.padding::before {
+    content: 'padding';
+}
+
+.content {
+    background: lightblue;
+    text-align: center;
+}
 
