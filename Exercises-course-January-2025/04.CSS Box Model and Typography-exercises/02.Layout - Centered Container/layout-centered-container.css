@@ -21,7 +21,7 @@ body {
 .site {
     border: 2px solid blue;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto; /* center the .site */
     padding: 2em;
 }
 
