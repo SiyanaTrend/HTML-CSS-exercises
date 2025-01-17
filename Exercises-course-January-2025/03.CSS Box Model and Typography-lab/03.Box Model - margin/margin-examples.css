@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
 div {
     display: block;
     border: 2px solid black;
@@ -18,6 +14,6 @@ div {
 }
 
 .negative-margin {
-    margin: -20px; /*the element will be moved up 20px as it is impossible to move it negatively 20px in all directions*/
+    margin-top: -20px; /*the element will be moved up 20px as it is impossible to move it negatively 20px in all directions*/
     padding: 20px;
 }
