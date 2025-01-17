@@ -1,9 +1,9 @@
 html {
   font-size: clamp(11px 3vw 16px);
-  line-height: 1.4;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
 
-  /* font: clamp(11px 3vw 15px)/1.4 Arial, Helvetica, sans-serif; */
+  /* font: clamp(11px 3vw 15px)/1.4 Helvetica, sans-serif; */
 }
 
 body,
@@ -17,20 +17,24 @@ button {
 }
 
 hr {
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
-p {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  
+p, ol, ul {
+  padding-bottom: 1.5em;
 }
+
+ol, ul {
+  padding-left: 1.5em;
+  margin: 0.5em 0.5em 0.2em 0.5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  font-weight: bold;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  font-weight: Georgia, serif;
 }
 
 h1 {
@@ -58,13 +62,8 @@ h6 {
 }
 
 hr + h2 {
-    padding-top: 0.5em;
-    margin-bottom: 0.3em;
-}
-
-ol, ul {
-  padding-left: 2em;
-  margin: 0.5em 0.5em 0.2em 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 0.3em;
 }
 
 .first {
@@ -82,7 +81,7 @@ ol, ul {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0.5em 0;
+  margin: 1.5em 0;
   text-align: left;
   font-size: 0.9em;
   table-layout: fixed; /* Ensures all columns have the same width */
@@ -106,7 +105,8 @@ tbody tr:nth-child(odd) {
 blockquote {
   font-style: italic;
   padding-left: 1.5em;
-  margin-left: 4.5em;
+  margin: 0 4.5em;
+  margin-bottom: 1em;
   border-left: 3px solid rgb(216, 213, 213);
 }
 
