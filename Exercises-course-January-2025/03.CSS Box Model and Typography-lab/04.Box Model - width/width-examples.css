@@ -17,7 +17,7 @@ div {
 }
 
 .percentage-width {
-    width: 50%; /* 50% of body element width */
+    width: 50%; /* 50% of body element width - the parent of the element */
 }
 
 .viewport-width {
