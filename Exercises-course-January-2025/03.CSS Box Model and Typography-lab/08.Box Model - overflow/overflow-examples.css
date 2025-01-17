@@ -14,5 +14,6 @@ div {
 }
 
 .overflow-scroll {
-    overflow: scroll;
+    overflow: scroll; /* it will show both vertical and horizontal scrollbar */
+    /* overflow: auto; => it will show only the necessary scrollbar*/
 }
