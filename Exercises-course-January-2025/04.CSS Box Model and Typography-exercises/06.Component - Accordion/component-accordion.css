@@ -1,0 +1,40 @@
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    padding: 2em;
+}
+
+.container {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+summary {
+    font-weight: bold;
+}
+
+details {
+    padding: 1.2em 1.5em;
+}
+
+details:not(:first-of-type) {
+    border-top: 1px solid gray;
+}
+
+details p {
+    padding: 0.5em 0;
+}
+
+details summary::marker {
+    content: '>  ';
+}
+
+details[open] summary::marker {
+    content: 'v  ';
+}
+
