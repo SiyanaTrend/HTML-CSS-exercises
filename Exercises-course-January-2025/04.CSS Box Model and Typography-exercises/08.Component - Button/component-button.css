@@ -1,0 +1,30 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+button {
+    padding: 1.1em 1.5em;
+    margin-right: 0.5em;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 5px;
+    background-color: white;
+}
+
+div button:nth-of-type(odd) {
+    background-color: rgb(204, 198, 198);
+}
+
+div button:nth-of-type(2) {
+    background-color: orange;
+}
+
+div button:nth-of-type(3) {
+    background-color: hsl(69, 90%, 88%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    padding-right: 0.4em;
+}
