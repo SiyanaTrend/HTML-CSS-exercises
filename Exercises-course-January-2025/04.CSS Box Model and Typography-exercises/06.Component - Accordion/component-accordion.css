@@ -30,11 +30,13 @@ details p {
     padding: 0.5em 0;
 }
 
-details summary::marker {
+details summary::marker, :is(::-webkit-details-marker) {
     content: '>  ';
+    font-family: monospace;
 }
 
-details[open] summary::marker {
+details[open] summary::marker, :is(::-webkit-details-marker) {
     content: 'v  ';
+    font-family: monospace;
 }
 
