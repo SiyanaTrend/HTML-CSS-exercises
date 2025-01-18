@@ -1,0 +1,14 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+a {
+    padding: 1.2em;
+    margin: 0.2em;
+    border: 1px solid rgb(240, 236, 236);
+    background-color: rgb(240, 236, 236);
+    border-radius: 50%;
+}
+
+i {
+    color: black;
+    font-size: 1.3em;
+}
