@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1621293954908-907159247fc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D");
+    background-size: cover; /* Ensures the image always fills the container */
+    background-position: center; /* Centers the image in the container */
+    min-height: 550px;
+    max-width: 100%; /* Makes the section span the full width of the document */
+    position: relative; /* Sets up positioning context for the text */
+}
+
+.description {
+    position: absolute; /* Places the text relative to the banner */
+    color: rgb(228, 233, 238);
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Offsets the text to truly center it */
+    text-align: center; /* Centers the text alignment */
+}
+
+.description h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.description p {
+    font-size: 1.1em;
+    margin: 0;
+}
