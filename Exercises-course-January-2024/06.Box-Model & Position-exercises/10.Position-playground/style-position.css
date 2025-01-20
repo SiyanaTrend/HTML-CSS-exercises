@@ -1,0 +1,82 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card {
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* създаване на сянка зад картинката*/
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.3); 
+}   
+.card::before {
+    display: block;
+    /* content: "Picture 1"; => текста ще е изписан */
+    content: "";
+    position: absolute;
+    /* за създаване на сенки вътре в картинката, inset e shorthand за top/right/bottom/left */
+    /* inset: 0 - ще вземе размера на родителя си */
+    inset: 0;
+    box-shadow: 0 1em 3em 0.5em rgb(0, 0, 0, 1) inset;
+    /* създаване на забавена смяна на сенките, когато минем с мишката върху картинката */
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+    
+}
+/* създаване на забавена смяна на сенките, когато минем с мишката върху картинката */
+.card:hover::before{
+    opacity: 0;
+}
+
+/* настойка на звездичката и веригата в картинката, които сме взели от fontawsome, като сме копирали svg кода в html*/
+.card svg {
+    display: block;
+    width: 2em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    fill: white;
+    cursor: pointer;
+    /* opacity: 0 => звездичката и веригата няма да се виждат*/
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in;
+}
+/* когато pointera е върху звездичката/веригата ще светне в лилаво с анимиран забавен ефект*/
+.card svg:hover{
+    fill: blueviolet;
+    transition: fill 0.4s ease-in;
+}
+
+/* когато минев върху картинката, ще се освети звездичката и веригата */
+.card:hover svg {
+    opacity: 1;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewport:nth-child(1) {
+    background: rgb(10,157,240);
+    background: linear-gradient(90deg, rgba(10,157,240,0.48058252427184467) 13%, rgba(0,255,248,1) 60%);
+}
+
+.viewport:nth-child(2) {
+    background: rgb(240,10,227);
+    background: linear-gradient(90deg, rgba(240,10,227,0.48058252427184467) 13%, rgba(255,116,0,1) 60%);
+}
+
+    
