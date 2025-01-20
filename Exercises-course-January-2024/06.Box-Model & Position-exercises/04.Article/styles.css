@@ -1,0 +1,26 @@
+main {
+    /* width: 900px; => ако е без width, когато свиваме и разпъваме браузъра картинките и текста ще се местят (респонсив) */
+    height: 140px;
+}
+img.left {
+    border: solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    float: left;
+    margin-right: 19px;
+    margin-bottom: 19px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+}
+img.right {
+    border: solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 0 0 1em 1em;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e2e2e;
+    text-align: justify;
+}
