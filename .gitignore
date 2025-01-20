@@ -41,4 +41,4 @@ desktop.ini          # Системен файл за Windows
 *.gif
 
 #Файлове, които да не се игнорират
-!12.Navigation-float/images/first-image.jpg
+!Exercises-course-January-2024/06.Box-Model\ &\ Position-exercises/12.Navigation-float/images/*.jpg
