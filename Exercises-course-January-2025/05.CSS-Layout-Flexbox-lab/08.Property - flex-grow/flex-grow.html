@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property - flex-grow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            padding: 0 2em;
+        }
+    
+        h1,
+        h2 {
+            margin: 1em 0;
+        }
+    
+        .flex-container {
+            width: 400px;
+            border: 2px solid blue;
+            padding: 1em;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            flex-grow: 0;
+        }
+       
+        .flex-item {
+            border: 2px solid #000;
+            padding: 1.5em;
+            background-color: #eee;
+        }
+
+        .flex-item.flex-grow-one {
+            flex-grow: 1;
+        } 
+
+        .flex-item.flex-grow-2nd-only {
+            flex-grow: 1;
+        }
+
+        .flex-item.flex-grow-proportional:nth-of-type(1) {
+            flex-grow: 1;
+        }
+
+        .flex-item.flex-grow-proportional:nth-of-type(2) {
+            flex-grow: 2;
+        }
+
+        .flex-item.flex-grow-proportional:nth-of-type(3) {
+            flex-grow: 3;
+        }
+
+    </style>
+    </head>
+    
+    <body>
+        <h1>flex-grow</h1>
+    
+        <h2>flex-grow: 0; (default)</h2>
+        <div class="flex-container">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+    
+        <h2>flex-grow: 1;</h2>
+        <div class="flex-container">
+            <div class="flex-item flex-grow-one">1</div>
+            <div class="flex-item flex-grow-one">2</div>
+            <div class="flex-item flex-grow-one">3</div>
+        </div>
+    
+        <h2>flex-grow, grow 2nd child only</h2>
+        <div class="flex-container">
+            <div class="flex-item">1</div>
+            <div class="flex-item flex-grow-2nd-only">2</div>
+            <div class="flex-item">3</div>
+        </div>
+
+        <h2>flex-grow, grow proportionally (1, 2, 3)</h2>
+        <div class="flex-container">
+            <div class="flex-item flex-grow-proportional">1</div>
+            <div class="flex-item flex-grow-proportional">2</div>
+            <div class="flex-item flex-grow-proportional">3</div>
+        </div>
+
+</body>
+</html>
