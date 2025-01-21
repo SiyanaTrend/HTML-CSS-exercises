@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property - align-items</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            padding: 0 2em;
+        }
+        
+        h1, h2 {
+            margin: 1em 0;
+        }
+        .flex-container {
+            height: 200px;
+            width: 400px;
+            border: 2px solid blue;
+            padding: 1em;
+            display: flex;
+        }
+        
+        .flex-container.align-items-stretch{
+            align-items: stretch;
+        }
+
+        .flex-container.align-items-flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-container.align-items-center{
+            align-items: center;
+        }
+
+        .flex-container.align-items-flex-end{
+            align-items: flex-end;
+        }
+
+        .flex-container.align-items-baseline{
+            align-items: baseline;
+        }
+
+        .flex-item {
+            border: 2px solid #000;
+            padding: 1.5em;
+            background-color: #eee;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <h1>align-items</h1>
+
+        <h2>align-items: stretch; (default)</h2>
+        <div class="flex-container align-items-stretch">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>align-items: flex-start;</h2>
+        <div class="flex-container align-items-flex-start">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>align-items: center;</h2>
+        <div class="flex-container align-items-center">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>align-items: flex-end;</h2>
+        <div class="flex-container align-items-flex-end">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>align-items: baseline;</h2>
+        <div class="flex-container align-items-baseline">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+    </body>
+    </html>
