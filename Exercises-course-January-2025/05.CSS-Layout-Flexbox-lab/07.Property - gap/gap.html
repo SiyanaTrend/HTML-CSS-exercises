@@ -19,6 +19,7 @@
         h1, h2 {
             margin: 1em 0;
         }
+
         .flex-container {
             width: 400px;
             border: 2px solid blue;
@@ -27,27 +28,28 @@
             align-items: flex-start;
             flex-wrap: wrap;
         }
+
+        .flex-container .flex-item {
+            border: 2px solid #000;
+            padding: 20px;
+            background-color: #eee;
+        }
         
-        .flex-container.gap-row{
+        .gap-row{
             gap: 2em 0;
             /* row-gap: 2em; */
         }
 
-        .flex-container.gap-column{
+        .gap-column{
             gap: 0 2em;
             /* column-gap: 2em; */
         }
 
-        .flex-container.gap{
+        .gap{
             gap: 2em;
         }
 
 
-        .flex-item {
-            border: 2px solid #000;
-            padding: 1.5em;
-            background-color: #eee;
-        }
     </style>
     </head>
     
