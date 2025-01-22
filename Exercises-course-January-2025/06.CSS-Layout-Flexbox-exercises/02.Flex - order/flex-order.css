@@ -1,0 +1,59 @@
+html {
+    font: 12px/1.5 Verdana, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+}
+
+body > * {
+    background: white;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin: 3em auto;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    max-width: 900px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container div {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 0.5em;
+}
+
+.header, .site-footer {
+    flex-basis:  100%;
+}
+
+.container .main-content {
+    flex: 1 0 55%;
+}
+
+.container .sidebar {
+    flex: 1 1 auto;
+}
+
+.reverse-layout .main-content {
+    order: 2;
+}
+
+.reverse-layout .sidebar {
+    order: 1;
+}
+
+.reverse-layout .header {
+    order: 0;
+}
+
+.reverse-layout .site-footer {
+    order: 3;
+}
