@@ -1,5 +1,5 @@
 html {
-    font: 12px/1.5 Helvetica, sans-serif;
+    font: 12px/1.5 Lato, sans-serif;
 }
 
 body {
@@ -22,10 +22,6 @@ body > * {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 1.5em;
-}
-
 hr {
     border: none;
     height: 2px;
@@ -43,15 +39,6 @@ header, footer {
     flex-direction: column;
 }
 
-header > p {
-    font-style: italic;
-    font-weight: 550;
-    color: gray;
-    max-width: 350px;
-    margin-top: 0.5em;
-    text-align: center;
-}
-
 main {
     display: flex;
     justify-content: space-around;
@@ -60,6 +47,19 @@ main {
 
 section {
     padding: 1.2em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+header > p {
+    font-style: italic;
+    font-weight: 550;
+    color: gray;
+    max-width: 350px;
+    margin-top: 0.5em;
+    text-align: center;
 }
 
 footer > p {
