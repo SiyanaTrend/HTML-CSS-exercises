@@ -1,0 +1,45 @@
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+    margin: 2em;
+}
+
+p {
+    color: gray;
+    font-style: italic;
+    padding-top: 2em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5em;
+}
+
+.content {
+    flex: 0 0 400px;
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
