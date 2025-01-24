@@ -1,0 +1,74 @@
+html {
+    font: 13px/1.5 Verdana, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+}
+
+body > * {
+    background: white;
+    padding: 0.2em;
+    margin: 3em auto;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    max-width: 800px;
+    border: 1px solid #eee;
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    border: 1px solid #eee;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sidebar p {
+    flex-grow: 1;
+    padding: 2.5em;
+}
+
+.sidebar p:last-child {
+    border-top: 1px solid #eee;
+}
+
+.week {
+    flex-grow: 1;
+    border: 1px solid #eee;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 2em;
+}
+
+.days {
+    display: flex;
+    border-top: 1px solid #eee;
+}
+
+.days p {
+    flex-grow: 1;
+    text-align: center;
+    padding: 2em;
+    border-right: 1px solid #eee;
+}
+
+.week .title:nth-child(3) {
+    border-top: 1px solid #eee;
+}
+
+.days p:last-child {
+    border-right: none;
+}
