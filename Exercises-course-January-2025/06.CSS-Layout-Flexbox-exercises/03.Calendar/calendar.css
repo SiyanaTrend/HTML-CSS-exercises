@@ -1,5 +1,5 @@
 html {
-    font: 13px/1.5 Verdana, sans-serif;
+    font: 14px/1.5 Lato, sans-serif;
 }
 
 body {
@@ -16,8 +16,8 @@ body > * {
 }
 
 .container {
-    max-width: 800px;
-    border: 1px solid #eee;
+    max-width: 900px;
+    border: 2px solid #eee;
     display: flex;
 }
 
@@ -25,8 +25,7 @@ body > * {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     border-left: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -38,12 +37,12 @@ body > * {
 }
 
 .sidebar p:last-child {
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
 }
 
 .week {
     flex-grow: 1;
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -55,18 +54,18 @@ body > * {
 
 .days {
     display: flex;
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
 }
 
 .days p {
     flex-grow: 1;
     text-align: center;
     padding: 2em;
-    border-right: 1px solid #eee;
+    border-right: 2px solid #eee;
 }
 
 .week .title:nth-child(3) {
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
 }
 
 .days p:last-child {
