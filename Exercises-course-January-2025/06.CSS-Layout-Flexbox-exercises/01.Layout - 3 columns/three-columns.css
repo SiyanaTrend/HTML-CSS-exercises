@@ -68,3 +68,35 @@ footer > p {
     margin-top: 0.5em;
     text-align: center;
 }
+
+@media (max-width: 300px) {
+    main {
+        flex-direction: column; /* arrange the sections vertically */
+        align-items: center;
+    }
+
+    section {
+        width: 100%; /* the sections will occupy the entire width */
+        padding: 1em; /* decrease padding */
+        box-sizing: border-box; /* avoiding overflow */
+    }
+}
+
+@media (max-width: 100px) {
+    body > * {
+        padding: 1em; /* decrease total padding */
+    }
+
+    header > p, footer > p {
+        font-size: 0.9em; /* reduce font size for smaller screens */
+        max-width: 100%; /* expand text elements */
+    }
+
+    h1, h3 {
+        font-size: 1.2em; /* reduce the size of the titles */
+    }
+
+    main {
+        margin: 0.5em; /* margin reduction*/
+    }
+}
