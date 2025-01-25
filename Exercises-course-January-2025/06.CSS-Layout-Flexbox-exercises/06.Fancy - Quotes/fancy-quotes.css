@@ -20,12 +20,16 @@ body {
 }
 
 main {
-    flex-grow: 3; /* 3 times bigger than <aside> */
+    flex: 0 1 70%
+    /* or */
+    /* flex-grow: 3; */
 }
 
 aside {
-    max-width: 30%;
-    flex-grow: 1;
+    flex: 0 1 30%;
+    /* or */
+    /* max-width: 30%; */
+    /* flex-grow: 1; */
     display: flex; /* strech <aside> */
     flex-direction: column; /* strech <aside> */
 }
