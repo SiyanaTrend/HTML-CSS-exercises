@@ -1,0 +1,82 @@
+html {
+    font: 12px/1.5 Verdana, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #fcf7f7;
+}
+
+body > * {
+    background: rgb(231, 229, 229);
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 2em auto;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    margin: 2em;
+}
+
+button {
+    margin-right: 0.5em;
+    border: 2px solid rgb(226, 224, 224);
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 160px;
+    height: 60px; 
+    display: flex; /* ensures content stays centered */
+    align-items: center;
+    justify-content: center; 
+}
+
+button a {
+    text-decoration: none;
+    color: hwb(34 0% 0%);
+    font-weight: bold;
+    width: 100%; /* makes <a> fill the button */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+/* dropdown behavior */
+nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/* highlight path to current submenu */
+nav ul li:hover > button {
+    background: rgb(238, 202, 172);
+    transition: background-color 0.3s, color 0.3s; /* smooth transitions for hover states */
+}
+
+/* highlight path to current submenu */
+nav ul li:hover > button a,
+nav ul li:hover > ul > li:hover > button a {
+    color: black; 
+}
+
+/* hide dropdown <buttons> */
+nav ul ul {
+    display: none;
+}
+
+/* dropdown behavior for inner <buttons> */
+nav ul ul li:hover > ul {
+    right: initial;
+    left: 95%;
+    top: 1.5em;
+}
