@@ -1,0 +1,22 @@
+html {
+    font: 12px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    border: 2px solid green;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+}
+
+header, main, footer {
+    border: 2px solid blue;
+    padding: 2em;
+}
+
+main {
+    flex-grow: 1;
+}
