@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font: inherit;
+  background-color: #eee;
+}
+
+body > * {
+  margin: 3em auto;
+  text-align: center;
+}
+
+.container {
+  max-width: 65vw;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eee;
+}
+
+.week {
+    flex-grow: 1;
+    border: 2px solid #eee;
+    border-right: none;
+}
+
+.days {
+  display: flex;
+}
+
+.title p,
+.days p,
+.notes p {
+  flex-grow: 1;
+  padding: 1.5em;
+  border: 2px solid #eee;
+}
