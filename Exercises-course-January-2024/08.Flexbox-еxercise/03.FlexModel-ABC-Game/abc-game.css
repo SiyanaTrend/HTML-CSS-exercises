@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: inherit;
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 15vw;
+    max-height: 40rem;
+    margin: 3em;
+}
+
+span {
+    align-self: stretch;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1em;
+
+}
+span:nth-child(11) {
+    order: -1;
+}
+
+span:nth-child(4) {
+    order: 2;
+}
+
+span:nth-child(8) {
+    order: 3;
+}
+
+span:nth-child(9) {
+    order: 4;
+}
+
+span:nth-child(6) {
+    order: 5;
+}
+
+span:nth-child(5) {
+    order: 6;
+}
+
+span:nth-child(10),
+span:nth-child(7),
+span:nth-child(3), 
+span:nth-child(1)  {
+    order: 7;
+}
