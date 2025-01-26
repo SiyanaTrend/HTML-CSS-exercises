@@ -1,0 +1,77 @@
+html {
+  font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+  font: inherit;
+  margin: 4em;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+figure {
+  margin: 1em 0;
+  margin-left: 2.5em;
+}
+
+.branch {
+  margin: 1em 0;
+  margin-left: 2em;
+}
+
+details {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+details > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  font-size: 1em;
+  position: relative;
+}
+
+details > summary::before {
+  content: "+";
+  color: white;
+  background-color: darkgreen;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+details[open] > summary::before {
+  content: "-";
+}
+
+/* Vertical lines */
+/* details.main::before {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  width: 4px;
+  height: calc(65% - 1.2em);
+  background-color: #ccc;
+} */
+
+
+/* Horizontal lines */
+/* details .branch > summary::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -3.8em;
+  width: 3.8em;
+  height: 4px;
+  background-color: #ccc;
+} */
