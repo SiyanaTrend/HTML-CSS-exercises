@@ -34,8 +34,8 @@ span {
     text-align: center;
     border: 1px solid black;
     padding: 1em;
-
 }
+
 span:nth-child(11) {
     order: -1;
 }
