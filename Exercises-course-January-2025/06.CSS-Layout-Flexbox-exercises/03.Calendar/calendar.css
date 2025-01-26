@@ -18,54 +18,35 @@ body > * {
 
 .container {
     max-width: 900px;
-    border: 2px solid #eee;
+    border: 1px solid #eee;
     display: flex;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    border: 2px solid #eee;
-    border-left: none;
+    border: 1px solid #eee;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.sidebar p {
-    flex-grow: 1;
-    padding: 2.5em;
-}
-
-.sidebar p:last-child {
-    border-top: 2px solid #eee;
-}
-
 .week {
     flex-grow: 1;
-    border: 2px solid #eee;
+    border: 1px solid #eee;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-}
-
-.title {
-    padding: 2em;
+    border-right: none;
 }
 
 .days {
     display: flex;
-    border-top: 2px solid #eee;
 }
 
+.sidebar p,
+.title p,
 .days p {
     flex-grow: 1;
     padding: 2em;
-    border-right: 2px solid #eee;
+    border: 1px solid #eee;
 }
 
-.week .title:nth-child(3) {
-    border-top: 2px solid #eee;
-}
-
-.days p:last-child {
-    border-right: none;
-}
