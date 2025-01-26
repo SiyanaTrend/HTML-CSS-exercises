@@ -33,15 +33,15 @@ body > * {
 }
 
 .notes {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #eee;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #eee;
 }
 
 .week {
-    flex-grow: 1;
-    border: 2px solid #eee;
-    border-right: none;
+  flex-grow: 1;
+  border: 2px solid #eee;
+  border-right: none;
 }
 
 .days {
