@@ -1,0 +1,41 @@
+html {
+    font: 12px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+    min-height: 100dvh; /*center the .container */
+    display: flex; /*center the .container */
+    flex-direction: column;
+    justify-content: center; /*center the .container */
+    align-items: center; /*center the .container */
+}
+
+.container {
+    max-width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    border: 2px solid #eee;
+    border-radius: 0.5em;
+    background-color: #eee;
+    width: 4em;
+    height: 2.5em; 
+}
+
+button:hover {
+    background: rgb(217, 141, 252);
+    color:whitesmoke;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s; /* smooth transitions for hover states */
+}
