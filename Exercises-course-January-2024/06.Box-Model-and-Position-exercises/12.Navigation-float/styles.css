@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: inherit;
+    margin: 2.5em 15em;
+    background: rgb(238, 238, 238);
+}
+
+
+.site-title p,
+.site-title nav,
+.site-title nav li {
+    display: inline-block;
+}
+
+.site-title {
+    border-bottom: 3px solid #696565;
+    padding-bottom: 1.2em;
+}
+
+.site-title p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.site-title nav {
+    float: right;
+    margin-top: 0.9em;
+}
+
+.site-title nav li {
+    padding-left: 3em;
+}
+
+.site-title nav a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+header {
+    margin-top: 1.5em;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 70%;
+    text-align: justify;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-top: 1.2em;
+}
+
+h1, h2, h3 {
+    font: 1.5em/1.2 Georgia, serif;
+    padding: 0.5em 0;
+}
+
+.first-section {
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+
+.first-section img {
+    float: right;
+    padding: 0.5em;
+    margin-left: 10px;
+    border: 3px solid #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+}
+
+.left-column, .author-section {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.left-column {
+    float: left;
+    width: 55%;
+}
+
+.author-section {
+    float: right;
+    width: 35%;
+    border-left: 3px solid rgb(195, 190, 190);
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding-left: 2em;
+    margin-top: 1em;
+}
+
+.author-section p:nth-child(2) {
+    float: right;
+}
+
+.second-section p:last-child {
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.third-section img {
+    float: left;
+    border: 3px solid #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+    padding: 0.5em;
+    margin: 0 20px 10px 0;
+}
+
+aside li a {
+    text-decoration: none;
+    color:rgb(0, 102, 0);
+}
