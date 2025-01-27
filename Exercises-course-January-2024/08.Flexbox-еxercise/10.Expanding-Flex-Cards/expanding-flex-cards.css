@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: inherit;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    max-width: 850px;
+    display: flex;
+    gap: 1em;
+}
+
+.photo {
+    max-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+.photo:nth-child(2) {
+    max-width: 100%;
+    padding: 0 2em;
+}
+
+img {
+    border-radius: 1em;
+}
