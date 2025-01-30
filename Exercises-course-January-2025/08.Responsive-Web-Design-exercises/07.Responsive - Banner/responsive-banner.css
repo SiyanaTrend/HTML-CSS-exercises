@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+    min-height: 100dvh; /*center the .container */
+    display: flex; /*center the .container */
+    justify-content: center; /*center the .container */
+    align-items: center; /*center the .container */
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h3, p {
+    color: rgb(117, 117, 117);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 70%;
+    justify-content: space-between; /* strech .content and .buttons */
+}
+
+aside {
+    flex: 0 1 30%;
+    display: flex; /* strech <aside> */
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    border: 2px solid #eee;
+    border-radius: 0.5em;
+    background-color: #eee;
+    width: 8em;
+    height: 2.5em; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+    padding: 1em 1.2em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+}
+
+.content > h3 {
+    margin-bottom: -1.5em; /* remove the gap between the <h3> and <h1> */
+}
+
+.photo {
+    width: 2em;
+    aspect-ratio: 1/1;
+    border: 2px solid #eee;
+    background: #eee;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+aside .photo {
+    flex-grow: 1; /* strech <aside> */
+}
+
+button:hover {
+    background: rgb(133, 20, 133);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s; /* smooth transitions for hover states */
+}
+
+button a:hover {
+    color: white; 
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 80%;
+        margin: 0;
+    }
+} 
