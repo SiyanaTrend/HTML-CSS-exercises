@@ -106,3 +106,13 @@ aside article section.circle {
     width: 8em;
     margin: 1.5em 0;
 }
+
+@media (max-width: 800px) {
+    body {
+        margin: 4em 2em;
+    }
+
+    .container {
+    max-width: 100%;
+    }
+} 
