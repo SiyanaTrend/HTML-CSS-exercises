@@ -50,14 +50,13 @@ nav ul {
     display: flex;
     background-color: gray;
     font-size: 1.2em;
-    gap: 13em;
+    gap: 10em;
     padding: 1em;
 }
 
 nav ul li {
     list-style: none;
     color: white;
-    font-size: 0.9em;
 }
 
 main {
@@ -76,8 +75,19 @@ footer p {
     text-align: center;
 }
 
-@media (max-width: 600px) {
 
+/* The viewport width is larger than 600px and smaller than 1200px */
+@media (min-width: 601px) and (max-width: 1000px) {
+    nav ul {
+        gap: 5em;
+        padding: 1em 0.5em;
+        font-size: 1em;
+    }
+}
+
+
+/* The viewport width is smaller than 600px */
+@media (max-width: 600px) {
     nav ul, main {
         display: block;
     }
