@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Align Items</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid black;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .box1 {
+            background: red;
+            font-size: 30px;
+        }
+
+        .box2 {
+            background: blue;
+            font-size: 20px;
+        }
+
+        .box3 {
+            background: green;
+            font-size: 40px;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container flex-start">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </div>
+
+    <div class="container baseline">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </div>
+</body>
+
+</html>
