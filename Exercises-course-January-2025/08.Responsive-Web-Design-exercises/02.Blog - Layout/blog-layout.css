@@ -79,9 +79,7 @@ footer p {
 /* The viewport width is larger than 600px and smaller than 1200px */
 @media (min-width: 601px) and (max-width: 1000px) {
     nav ul {
-        gap: 5em;
-        padding: 1em 0.5em;
-        font-size: 1em;
+        gap: 8em;
     }
 }
 
