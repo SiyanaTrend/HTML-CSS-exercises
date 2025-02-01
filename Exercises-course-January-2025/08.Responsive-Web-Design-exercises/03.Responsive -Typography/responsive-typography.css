@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   font-family: Helvetica, sans-serif;
 
@@ -114,7 +114,19 @@ blockquote p:last-child {
   text-align: right;
 }
 
-@media (max-width:800px) {
+@media (min-width: 600px) {
+	html { font-size: 14px; }
+}
+
+@media (min-width: 900px) {
+	html { font-size: 16px; }
+}
+
+@media (min-width: 1200px) {
+	html { font-size: 18px; }
+}
+
+/* @media (max-width:800px) {
     html {
         font: 14px/1.5 Georgia, serif;
     }
@@ -146,4 +158,4 @@ blockquote p:last-child {
     h6 {
     font-size: 1.3em;
     }
-}
+} */
