@@ -1,0 +1,119 @@
+html {
+    font: 12px/1.5 Lato, sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #eee;
+    display: flex;
+    justify-content: center; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 3em 5em;
+    padding: 2em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    align-self: center;
+}
+
+button {
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    padding: 1em;
+    display: flex; /* ensures content stays centered */
+    align-items: center;
+    justify-content: center; 
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 100%; /* makes <a> fill the button */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    position: relative;
+}
+
+/* dropdown behavior */
+nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    gap: 0;
+}
+
+/* highlight path to current submenu */
+nav ul li:hover > button {
+    background: rgb(238, 202, 172);
+    transition: background-color 0.3s, color 0.3s; /* smooth transitions for hover states */
+}
+
+/* highlight path to current submenu */
+nav ul li:hover > button a,
+nav ul li:hover > ul > li:hover > button a {
+    color: black; 
+}
+
+/* hide dropdown <buttons> */
+nav ul ul {
+    display: none;
+}
+
+/* dropdown behavior for inner <buttons> */
+nav ul ul li:hover > ul {
+    right: initial;
+    left: 98%;
+    top: 1.5em;
+}
+
+@media (max-width: 800px) {
+    header {
+        width: 800px;
+        margin: 3em;
+    }
+}
+
+@media (max-width: 670px) {
+    header, nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li:hover > ul {
+        flex-direction: row;
+        position: absolute;
+        top: 0%;
+        left: 22%;
+    }
+
+    nav ul ul li:hover > ul {
+        flex-direction: column;
+        right: inherit;
+        left: 0%;
+        top: 100%;
+}
+}
