@@ -1,0 +1,76 @@
+html {
+  font-size: clamp(12px 3vw 15px);
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  font: inherit;
+  background-color: #eee;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  /* max-width: 1000px; */
+  border-collapse: collapse;
+  margin: 1.5em;
+  background-color: white;
+  text-align: left;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.9em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+thead th {
+  background-color: #eee;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+tbody td {
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.first td:nth-child(2),
+.first th:nth-child(2) {
+  width: 60%;
+}
+
+.first td:nth-child(1),
+.first th:nth-child(1) {
+  width: 20%;
+}
+
+@media (max-width: 800px) {
+  table {
+    width: 90%; /* make table larger => set the table width to 95% of its parent container */
+    font-size: 1.1em;
+    table-layout: fixed; /* sets fixed column widths, ignoring content size. */
+  }
+
+  thead th {
+    font-size: 1.2em;
+  }
+
+  h1,
+  th,
+  td {
+    word-wrap: break-word; /* forces long words to break and wrap onto the next line if they exceed the container width. */
+    overflow-wrap: break-word; /* ensures words break and wrap to prevent content from overflowing its container. */
+  }
+}
