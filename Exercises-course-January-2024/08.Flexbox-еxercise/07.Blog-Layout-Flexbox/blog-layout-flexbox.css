@@ -12,18 +12,20 @@ html {
     box-sizing: inherit;
 }
 
+
+
 body {
     font: inherit;
     margin: 2.5em 15em;
     background: rgb(238, 238, 238);
 }
 
-.site-title {
+header {
     border-bottom: 3px solid #696565;
     padding-bottom: 1.2em;
 }
 
-.site-title p {
+header p {
     font-size: 2em;
     font-weight: bold;
 }
