@@ -107,7 +107,7 @@ aside article section.circle {
     margin: 1.5em 0;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
     body {
         margin: 4em 2em;
     }
