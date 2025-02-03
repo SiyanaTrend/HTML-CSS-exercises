@@ -4,41 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Layout</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body {
-            padding: 5rem;
-            background-color: #eee;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2em;
-        }
-        body > * {
-            background-color: #fff;
-            padding: 1em;
-            text-transform: uppercase;
-            border-radius: 0.3em;
-            box-shadow: 0 0 1em 0 rgba(0,0,0,0.3);
-        }
-        main, aside {
-            min-height: 400px;
-        }
-
-        header, footer {
-            flex-basis: 100%;
-        }
-        main {
-            flex: 1 0 70%;
-        }
-        aside {
-            flex: 1 1 auto;
-        }
-
-    </style>
+    <link rel="stylesheet" href="flexbox-layout.css">
 </head>
 <body>
     <header>
