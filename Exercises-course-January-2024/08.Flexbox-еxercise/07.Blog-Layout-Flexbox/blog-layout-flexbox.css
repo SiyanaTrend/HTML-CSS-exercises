@@ -12,12 +12,31 @@ html {
     box-sizing: inherit;
 }
 
-
-
 body {
     font: inherit;
-    margin: 2.5em 15em;
+    margin: 5em;
     background: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1, h2, h3 {
+    font: 1.5em/1.2 Georgia, serif;
+    padding: 0.5em 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: column;
+    gap: 1em;
 }
 
 header {
@@ -30,44 +49,34 @@ header p {
     font-weight: bold;
 }
 
-header {
-    margin-top: 1.5em;
-}
-
-main, aside {
-    display: inline-block;
-    vertical-align: top;
-}
-
 main {
-    width: 70%;
-    text-align: justify;
-}
-
-aside {
-    width: 20%;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 80%;
     margin-top: 1.2em;
 }
 
-h1, h2, h3 {
-    font: 1.5em/1.2 Georgia, serif;
-    padding: 0.5em 0;
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 20%;
+    margin-top: 1.2em;
 }
 
 .first-section {
-    display: inline-block;
-    margin-bottom: 1.5em;
+    display: flex;
+    margin: 1.5em;
+    gap: 1em;
 }
 
-.first-section img {
-    float: right;
+.photo {
     padding: 0.5em;
-    margin-left: 10px;
     border: 3px solid #000;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+    flex-grow: 50ch;
 }
+
 
 .left-column, .author-section {
     display: inline-block;
