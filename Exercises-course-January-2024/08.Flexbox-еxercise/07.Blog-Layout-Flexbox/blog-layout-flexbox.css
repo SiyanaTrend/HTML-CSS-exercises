@@ -117,13 +117,31 @@ aside {
     align-self: flex-end;
 }
 
-.third-section img {
-    float: left;
+.third-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.second-text {
+    display: flex;
+}
+
+.second-photo {
     border: 3px solid #000;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
     padding: 0.5em;
     margin: 0 20px 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 40%;
+}
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 aside li a {
