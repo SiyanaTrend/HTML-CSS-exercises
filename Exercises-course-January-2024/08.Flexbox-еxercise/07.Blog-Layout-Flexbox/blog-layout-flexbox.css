@@ -36,7 +36,7 @@ img {
     display: flex;
     justify-content: column;
     gap: 5em;
-    margin-top: 1.2em;
+    margin: 1.5em 0;
 }
 
 header {
@@ -59,6 +59,7 @@ aside {
     display: flex;
     flex-direction: column;
     flex: 0 1 20%;
+    gap: 1.5em;
 }
 
 .first-section {
@@ -67,6 +68,9 @@ aside {
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     flex: 1 1 60%;
 }
 
@@ -81,35 +85,36 @@ aside {
     max-height: 80%;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 1.5em 0;
+}
 
-.left-column, .author-section {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
+.two-columns {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
 }
 
 .left-column {
-    float: left;
-    width: 55%;
+    flex: 1 1 50%;
 }
 
 .author-section {
-    float: right;
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    flex: 0 1 50%;
     border-left: 3px solid rgb(195, 190, 190);
     font-family: Georgia, serif;
     font-style: italic;
     padding-left: 2em;
-    margin-top: 1em;
-}
-
-.author-section p:nth-child(2) {
-    float: right;
 }
 
 .second-section p:last-child {
-    display: inline-block;
-    margin: 2em 0;
+    align-self: flex-end;
 }
 
 .third-section img {
