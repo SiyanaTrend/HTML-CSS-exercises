@@ -23,7 +23,6 @@ body {
 
 h1, h2, h3 {
     font: 1.5em/1.2 Georgia, serif;
-    padding: 0.5em 0;
 }
 
 img {
@@ -36,7 +35,7 @@ img {
     display: flex;
     justify-content: column;
     gap: 5em;
-    margin: 1.5em 0;
+    margin: 2em 0;
 }
 
 header {
@@ -53,6 +52,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 1 80%;
+    text-align: justify;
 }
 
 aside {
@@ -62,40 +62,36 @@ aside {
     gap: 1.5em;
 }
 
-.first-section {
+.section {
     display: flex;
-    gap: 1.5em;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 2em;
 }
 
 .text {
     display: flex;
-    flex-direction: column;
-    gap: 1em;
-    flex: 1 1 60%;
 }
 
 .photo {
-    margin-top: 1em;
-    padding: 0.5em;
     border: 3px solid #000;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
-    flex: 0 1 40%;
+    padding: 0.5em;
     display: flex;
-    max-height: 80%;
+    flex: 0 0 40%;
 }
 
-.second-section {
+.para {
     display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    margin: 1.5em 0;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .two-columns {
     display: flex;
     gap: 2em;
-    justify-content: space-between;
+    margin: 1em 0;
 }
 
 .left-column {
@@ -105,7 +101,8 @@ aside {
 .author-section {
     display: flex;
     flex-direction: column;
-    gap: 0.8em;
+    justify-content: center;
+    gap: 1em;
     flex: 0 1 50%;
     border-left: 3px solid rgb(195, 190, 190);
     font-family: Georgia, serif;
@@ -113,35 +110,16 @@ aside {
     padding-left: 2em;
 }
 
-.second-section p:last-child {
+.author-section p:last-child {
     align-self: flex-end;
 }
 
-.third-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+.text .para:first-of-type {
+    margin-right: 1.2em;
 }
 
-.second-text {
-    display: flex;
-}
-
-.second-photo {
-    border: 3px solid #000;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
-    padding: 0.5em;
-    margin: 0 20px 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 40%;
-}
-
-.para {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
+main .section:last-of-type .photo {
+    margin: 0 1.2em 0 0;
 }
 
 aside li a {
