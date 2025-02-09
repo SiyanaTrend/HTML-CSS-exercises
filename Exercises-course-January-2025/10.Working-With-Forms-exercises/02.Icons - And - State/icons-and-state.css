@@ -1,0 +1,90 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100dvh; /*center the .container */
+    display: flex; /*center the .container */
+    flex-direction: column;
+    justify-content: center; /*center the .container */
+    align-items: center; /*center the .container */
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+hr {
+    width: 100px;
+    color: #CCC;
+}
+
+label {
+    font-weight: bold;
+}
+
+.fieldname {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    align-self: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.9em;
+    border: 2px solid #CCC;
+    border-radius: 0.3em;
+}
+
+.text {
+    font-size: 0.8em;
+    color: #474343;
+    font-style: italic;
+}
+
+#login {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    font-weight: bold;
+}
+
+#login:hover {
+    background-color: white;
+    color: orange;
+}
+
+.fieldname > label::after {
+    content: ' *';
+    color: red;
+    font-weight: bolder;
+}
+
+#password:hover, 
+#email:hover {
+    border-color: orange;
+}
