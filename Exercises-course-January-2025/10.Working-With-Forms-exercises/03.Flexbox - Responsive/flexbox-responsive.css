@@ -1,0 +1,54 @@
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100dvh; /*center the .container */
+    display: flex; /*center the .container */
+    justify-content: center; /*center the .container */
+    align-items: center; /*center the .container */
+}
+
+.container {
+    width: 800px;
+    margin: 0 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5em 0.8em;
+    border: 2px solid #eee;
+    border-radius: 0.3em;
+    background-color: #eee;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+}
+
+#email {
+    flex: 1 1 80%;
+}
+
+#name, #subscribe {
+    flex: 1 0 20%;
+}
