@@ -10,7 +10,6 @@ body {
     background-color: #eee;
     min-height: 100dvh; /*center the .container */
     display: flex; /*center the .container */
-    flex-direction: column;
     justify-content: center; /*center the .container */
     align-items: center; /*center the .container */
 }
