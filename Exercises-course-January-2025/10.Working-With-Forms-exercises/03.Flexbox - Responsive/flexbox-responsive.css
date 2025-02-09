@@ -25,6 +25,11 @@ body {
     gap: 1em;
 }
 
+.input-box {
+    display: flex;
+    gap: 1em;
+}
+
 input, button {
     width: 100%;
     padding: 0.5em 0.8em;
@@ -49,6 +54,45 @@ button:hover {
     flex: 1 1 80%;
 }
 
-#name, #subscribe {
-    flex: 1 0 20%;
+#name {
+    flex: 1 1 20%;
 }
+
+span {
+    flex: 1 0 80%;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 4em 2em;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #subscribe {
+        margin-top: 1em;
+    }
+
+    button {
+        padding: 0.8em;
+    }
+
+   #email {
+    flex: 1 0 60%;
+   }
+} 
+@media (max-width: 400px) {
+    body {
+        margin: 4em 2em;
+    }
+
+    .input-box {
+        display: block;
+    }
+
+    #email {
+        margin-top: 1em;
+    }
+} 
