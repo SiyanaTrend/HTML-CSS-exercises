@@ -1,0 +1,62 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100dvh; /*center the .container */
+    display: flex; /*center the .container */
+    justify-content: center; /*center the .container */
+    align-items: center; /*center the .container */
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+}
+
+legend {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #CCC;
+}
+
+.text {
+    font-size: 0.8em;
+    color: #474343;
+    font-style: italic;
+}
+
+#login {
+    background-color: #CCC;
+    border-color: #CCC;
+    font-weight: bold;
+    padding: 0.8em;
+    border-radius: 5px;
+}
+
+
