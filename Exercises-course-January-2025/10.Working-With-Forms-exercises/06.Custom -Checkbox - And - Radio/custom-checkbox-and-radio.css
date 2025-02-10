@@ -25,3 +25,27 @@ body {
     flex-direction: column;
     gap: 1.8em;
 }
+input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    width: 1.5em;
+    aspect-ratio: 1/1;
+    background-color: orange;
+    position: relative;
+}
+
+input[type="radio"]::after {
+    display: block;
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    inset: 0.2em;
+    aspect-ratio: 1/1;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+input[type="radio"]:checked::after {
+    opacity: 1;
+}
