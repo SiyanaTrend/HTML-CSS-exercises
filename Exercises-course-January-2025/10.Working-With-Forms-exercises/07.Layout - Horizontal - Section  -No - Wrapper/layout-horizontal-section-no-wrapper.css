@@ -1,0 +1,18 @@
+body {
+    border: 2px solid green;
+    padding: 2em;
+}
+
+.section {
+    border: 2px solid blue;
+    padding: 1.5em max(2em, calc((100% - 50em) / 2));
+    margin-bottom: 1em;
+}
+
+h4 {
+    padding-bottom: 0.8em;
+}
+
+.section.footer {
+    margin-bottom: 0;
+}
