@@ -91,7 +91,7 @@ a {
 }
 
 aside .photo {
-    flex-grow: 1; /* strech <aside>
+    flex-grow: 1; /* strech <aside> */
 }
 
 button:hover {
