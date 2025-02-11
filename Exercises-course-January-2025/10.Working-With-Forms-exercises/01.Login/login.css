@@ -2,7 +2,7 @@ html {
     font: 14px/1.5 Lato, sans-serif;
 }
 
-body, input, textarea, select, option {
+body, input, textarea, select, option, button {
     font: inherit;
 }
 
@@ -10,12 +10,14 @@ body {
     background-color: #eee;
     min-height: 100dvh; /*center the .container */
     display: flex; /*center the .container */
+    flex-direction: column;
     justify-content: center; /*center the .container */
     align-items: center; /*center the .container */
 }
 
 .container {
-    width: 350px;
+    width: 80vw;
+    max-width: 350px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
@@ -25,8 +27,8 @@ body {
     gap: 1.8em;
 }
 
-legend {
-    font-size: 1.2em;
+h3 {
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -45,6 +47,7 @@ input {
     padding: 0.5em 0.8em;
     border: 2px solid #CCC;
     border-radius: 0.3em;
+    outline: none;
 }
 
 #login {
@@ -68,4 +71,14 @@ p > label::after {
 #password:hover, 
 #email:hover {
     border-color: orange;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: rgb(63, 139, 79);
+}
+
+input[type="email"]:user-invalid,
+input[type="password"]:user-invalid {
+    border-color: red;
 }
