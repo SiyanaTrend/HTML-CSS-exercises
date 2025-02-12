@@ -22,8 +22,10 @@ header {
 }
 
 nav {
+  display: flex;
   background-color: #333;
   padding: 14px 26px;
+  gap: 1em;
 }
 
 nav a {
@@ -31,6 +33,10 @@ nav a {
   padding: 14px 20px;
   text-align: left;
   text-decoration: none;
+}
+
+.content {
+  display: flex;
 }
 
 aside {
@@ -47,6 +53,21 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #ddd;
+}
+
+@media (width < 700px) {
+  .content {
+    display: block;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* TODO Responsive layout - when the screen is less than 700px wide, 
