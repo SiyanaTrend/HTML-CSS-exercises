@@ -8,14 +8,14 @@
 
 html {
     box-sizing: border-box;
-    font: 14px/1.5 Source Sans 3, sans-serif;
+    font: 14px/1.5 "Source Sans 3", sans-serif;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
-body, button, input, textarea, span, а {
+body, button, input, textarea, span {
     font: inherit;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .icons {
-    flex: 0 0 350px;
+    flex: 0 0 300px;
 }
 
 h3 {
