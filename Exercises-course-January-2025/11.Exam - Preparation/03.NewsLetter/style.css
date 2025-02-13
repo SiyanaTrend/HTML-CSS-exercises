@@ -1,0 +1,128 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+body {
+    background-color: #C1BBBB;
+}
+
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.section.site-header .inner {
+    display: flex;
+    padding: 4em 0 2em;
+    align-items: center;
+}
+
+.section.site-header .site-branding {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.section.site-header .site-title {
+    font-family: 'Oleo Script', serif;
+    font-size: 3em;
+    background-color: #57A390;
+    color: #fff;
+    border-radius: 0.3rem;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+}
+
+.section.site-header .site-description {
+    font-weight: bold;
+}
+
+.section.site-header nav {
+    margin-left: auto;
+}
+
+.section.site-header nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+.section.site-header nav a,
+.section.site-header nav li {
+    display: block;
+}
+
+.section.site-header nav a {
+    color: #696969;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section.site-header nav a.active {
+    background-color: #444;
+    color: #fff;
+}
+
+.section.banner {
+    margin-bottom: 2em;
+}
+
+.section.banner .inner {
+    background: #fff;
+    border-radius: 0.5em;
+    padding: 4em;
+    display: flex;
+    gap: 4em;
+}
+
+.section.banner .text {
+    flex: 0 1 60%;
+}
+
+.section.banner .text h2 {
+    font-size: 4em;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.section.banner .text p {
+    font-size: 2.8em;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.section.banner .buttons {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2em;
+}
+
+.section.banner .buttons .button {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    line-height: 1;
+    padding: 1em;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    color: #444;
+}
+
+.section.banner .buttons .button.primary {
+    background-color: #0090C5;
+    color: #fff;
+}
+
+
+
+
+.section.call-to-action {
+    background-color: #fff;
+}
+
+
