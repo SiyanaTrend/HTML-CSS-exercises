@@ -10,6 +10,9 @@ body {
     margin: 0 auto;
 }
 
+.section.site-header {
+    margin-top: 3em;
+}
 
 .section.site-header .inner {
     display: flex;
@@ -186,11 +189,30 @@ body {
 } 
 
 .section.call-to-action .main {
+    margin-bottom: 2em;
+}
 
+.section.call-to-action .main p {
+    line-height: 2.5;
+    margin-bottom: 0.5em;
+}
+
+.section.call-to-action a.button {
+    display: inline-block;
+    margin-top: auto;
+    text-decoration: none;
+    background-color: #0090C5;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 0.3rem;
 }
 
 .section.site-footer {
-    margin-bottom: 4em;
+    margin-bottom: 6em;
+    color: #696969;
 }
 
 .section.site-footer .columns {
@@ -204,6 +226,8 @@ body {
 
 .section.site-footer .columns .column h6 {
     padding-bottom: 1.7em;
+    font-weight: 800;
+    color: #333232;
 }
 
 .section.site-footer .columns .column ul {
@@ -221,7 +245,6 @@ body {
 
 .section.site-footer .columns .column > p {
     padding-bottom: 0.5em;
-    color: #696969;
 }
 
 ul.socials a {
@@ -252,6 +275,5 @@ ul.socials li {
 
 .section.site-footer .inner > p:last-child {
     text-align: center;
-    font-weight: bold;
     padding-top: 2em;
 }
