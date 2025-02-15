@@ -39,6 +39,7 @@ desktop.ini          # Системен файл за Windows
 *.txt
 *.jpg
 *.gif
+*.jpeg
 
 #Файлове, които да не се игнорират
 !Exercises-course-January-2024/06.Box-Model-and-Position-exercises/12.Navigation-float/images/*.jpg
@@ -52,3 +53,7 @@ desktop.ini          # Системен файл за Windows
 !Exercises-course-January-2025/12.Exam - 15.02.2025/01.Portfolio/images/*.png
 
 !Exercises-course-January-2025/12.Exam - 15.02.2025/02.SweetHeaven/images/*.png
+
+!Exercises-course-January-2025/12.Exam - 15.02.2025/03.CarGallery/images/*.jpeg
+
+!Exercises-course-January-2025/12.Exam - 15.02.2025/03.CarGallery/images/*.jpg
