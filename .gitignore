@@ -1,47 +1,47 @@
-# Настройки на VS Code
-.vscode/             # Локални настройки на VS Code (не е нужно да се споделят)
+# VS Code settings  
+.vscode/             # Local VS Code settings (not necessary to share)  
 
-# Системни файлове (Windows/MacOS/Linux)
-.DS_Store            # MacOS файл за метаданни
-Thumbs.db            # Windows файл за кеширане на миниатюри
-ehthumbs.db          # Друг системен файл на Windows
-*.Spotlight-V100     # MacOS Spotlight файл
-*.Trashes            # MacOS кошче файл
+# System files (Windows/MacOS/Linux)  
+.DS_Store            # MacOS metadata file  
+Thumbs.db            # Windows thumbnail cache file  
+ehthumbs.db          # Another Windows system file  
+*.Spotlight-V100     # MacOS Spotlight file  
+*.Trashes            # MacOS trash file  
 
-# Кеш файлове
-*.log                # Логове от инструменти или системи
-*.tmp                # Временни файлове
-*.bak                # Резервни копия
-*.swp                # Временни файлове на текстови редактори (например Vim)
+# Cache files  
+*.log                # Logs from tools or systems  
+*.tmp                # Temporary files  
+*.bak                # Backup files  
+*.swp                # Temporary files from text editors (e.g., Vim)  
 
-# Node.js (ако добавите Node.js инструменти по-късно)
-node_modules/        # Папка с модули на npm
-npm-debug.log*       # Лог файлове от npm
-yarn-debug.log*      # Лог файлове от Yarn
-yarn-error.log*      # Логове от Yarn
+# Node.js (if you add Node.js tools later)  
+node_modules/        # npm modules folder  
+npm-debug.log*       # npm log files  
+yarn-debug.log*      # Yarn log files  
+yarn-error.log*      # Yarn error logs  
 
-# Билд директории (ако използвате инструменти като Webpack или Gulp)
-dist/                # Крайни билд файлове
-build/               # Друга често използвана билд папка
-out/                 # Изходни файлове
-.tmp/                # Временни файлове, създадени от инструменти
+# Build directories (if using tools like Webpack or Gulp)  
+dist/                # Final build files  
+build/               # Another commonly used build folder  
+out/                 # Output files  
+.tmp/                # Temporary files created by tools  
 
-# Sass/SCSS (ако използвате препроцесори)
-*.sass-cache/        # Sass кеш директория
+# Sass/SCSS (if using preprocessors)  
+*.sass-cache/        # Sass cache directory  
 
-# Кеш на изображения
-*.cache              # Всякакви кеш файлове
-*.iml                # IntelliJ IDEA проектни файлове (ако се използват)
+# Image cache  
+*.cache              # Any cache files  
+*.iml                # IntelliJ IDEA project files (if used)  
 
-# Конфигурационни файлове за операционни системи
-desktop.ini          # Системен файл за Windows
-*.png
-*.txt
-*.jpg
-*.gif
-*.jpeg
+# OS configuration files  
+desktop.ini          # Windows system file  
+*.png  
+*.txt  
+*.jpg  
+*.gif  
+*.jpeg  
 
-#Файлове, които да не се игнорират
+# Files that should not be ignored 
 !Exercises-course-January-2024/06.Box-Model-and-Position-exercises/12.Navigation-float/images/*.jpg
 
 !Exercises-course-January-2025/06.CSS-Layout-Flexbox-exercises/05.Photo - Gallery/images/*.jpg
