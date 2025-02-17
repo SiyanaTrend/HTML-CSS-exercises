@@ -1,277 +1,284 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 
 body {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .inner {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* Section Header */
 
 .section.site-header {
-    margin-top: 0em;
-    background: linear-gradient(90deg, rgba(255,112,136,1) 23%, rgba(243,177,155,1) 58%);
+  margin-top: 0em;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 112, 136, 1) 23%,
+    rgba(243, 177, 155, 1) 58%
+  );
 }
 
 .section.site-header .inner {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .section.site-header nav ul {
-    display: flex;
-    gap: 2em;
+  display: flex;
+  gap: 2em;
 }
 
 .section.site-header nav a,
 .section.site-header nav li {
-    display: block;
+  display: block;
 }
 
 .section.site-header nav a {
-    color: #fff;
-    padding: 1em 2em;
-    text-decoration: none;
+  color: #fff;
+  padding: 1em 2em;
+  text-decoration: none;
 }
 
 .section.site-header nav a.active {
-    background-color: rgba(248, 235, 235, 0.3);
-    color: white;
-    letter-spacing: 0.2em;
-    border: 1px solid;
-    border-top: none;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+  background-color: rgba(248, 235, 235, 0.3);
+  color: white;
+  letter-spacing: 0.2em;
+  border: 1px solid;
+  border-top: none;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
 }
 
 /* Section Banner */
 
 .section.banner {
-    margin-bottom: 2em;
-    background: linear-gradient(90deg, rgba(255,112,136,1) 23%, rgba(243,177,155,1) 58%);
+  margin-bottom: 2em;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 112, 136, 1) 23%,
+    rgba(243, 177, 155, 1) 58%
+  );
 }
 
 .section.banner .inner {
-    padding: 4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4em;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
 }
 
 .section.banner .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section.banner .text h2 {
-    font-size: 3em;
-    line-height: 1;
-    color: white;
-    font-weight: 100;
+  font-size: 3em;
+  line-height: 1;
+  color: white;
+  font-weight: 100;
 }
 
 .section.banner .text p {
-    line-height: 1;
-    font-weight: 100;
-    color: white;
-    text-align: center;
+  line-height: 1;
+  font-weight: 100;
+  color: white;
+  text-align: center;
 }
 
 .section.banner .button {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.2em;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2em;
 }
 
 .section.banner .buttons .button {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.2em;
-    line-height: 1;
-    padding: 1em 2em;
-    border: 1px solid ;
-    background-color: transparent;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 0.3rem;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 1em 2em;
+  border: 1px solid;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  color: white;
 }
 
 /* Section Car Images */
 
 section.car-images {
-    background-color: #F6F8FB;
+  background-color: #f6f8fb;
 }
 
-
 section.car-images .inner {
-    display: flex;
-    gap: 2em;
+  display: flex;
+  gap: 2em;
 }
 
 /* Section Cards */
 
 .section.cards .inner {
-    display: flex;
-    gap: 2em;
-    margin-top: 2em;
-    margin-bottom: 3em;
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 section.cards .card {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  flex: 1 1 50%;
 }
 
-.section.cards h3, p {
-    font-weight: 100;
-    line-height: 1.8;
-    opacity: 0.6; 
+.section.cards h3,
+p {
+  font-weight: 100;
+  line-height: 1.8;
+  opacity: 0.6;
 }
 
 .section.cards .cards-buttons {
-    text-align: center;
-    margin-top: 1.5em;
+  text-align: center;
+  margin-top: 1.5em;
 }
 
 .section.cards .cards-buttons .button {
-    font-size: 1em;
-    line-height: 1;
-    padding: 1em 2em;
-    border: 1px solid rgb(168, 168, 168);
-    color: rgb(158, 156, 156);
-    opacity: 0.7;
-    background-color: transparent;
-    text-decoration: none;
-    border-radius: 0.3rem;
+  font-size: 1em;
+  line-height: 1;
+  padding: 1em 2em;
+  border: 1px solid rgb(168, 168, 168);
+  color: rgb(158, 156, 156);
+  opacity: 0.7;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 0.3rem;
 }
-
 
 /* Secttion Call-to-Action */
 
 .section.call-to-action {
-    background-image: url("images/promo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 7em;
-    padding: 3em 6em;
+  background-image: url("images/promo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 7em;
+  padding: 3em 6em;
 }
 
 .section.call-to-action .inner {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .section.call-to-action .register {
-    max-width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.8em 1.5em;
-    gap: 1em;
-    border: 1px solid rgb(211, 208, 208, 0.200);
-    border-radius: 0.5em;
-    background-color: rgba(252, 241, 241, 0.144);
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8em 1.5em;
+  gap: 1em;
+  border: 1px solid rgb(211, 208, 208, 0.2);
+  border-radius: 0.5em;
+  background-color: rgba(252, 241, 241, 0.144);
 }
 
 .section.call-to-action p {
-    font-size: 1.4em;
-    color: white;
-    padding-bottom: 0;
+  font-size: 1.4em;
+  color: white;
+  padding-bottom: 0;
 }
 
 .section.call-to-action .register-button .button {
-    display: block;
-    font-size: 1em;
-    line-height: 1;
-    padding: 1em 2em;
-    border: 1px solid white;
-    color: #27636B;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 0.3rem;
+  display: block;
+  font-size: 1em;
+  line-height: 1;
+  padding: 1em 2em;
+  border: 1px solid white;
+  color: #27636b;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 0.3rem;
 }
 
 /* Section Main */
 
 .section.main .main {
-    text-align: center;
-    margin-bottom: 2em;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .section.main .main h3 {
-    font-weight: 200;
-    opacity: 0.6;
-    margin-bottom: 2.5em;
+  font-weight: 200;
+  opacity: 0.6;
+  margin-bottom: 2.5em;
 }
 
 .section.main .main-button .button {
-    font-size: 1em;
-    line-height: 1;
-    padding: 1em 1.8em;
-    border: 1px solid rgb(168, 168, 168);
-    color: rgb(158, 156, 156);
-    opacity: 0.9;
-    background-color: transparent;
-    text-decoration: none;
-    border-radius: 0.3rem;
+  font-size: 1em;
+  line-height: 1;
+  padding: 1em 1.8em;
+  border: 1px solid rgb(168, 168, 168);
+  color: rgb(158, 156, 156);
+  opacity: 0.9;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 0.3rem;
 }
 
 /* Section Weird Cars */
 
 section.weird-cars {
-    background-color: #F6F8FB;
-    margin-bottom: 7em;
+  background-color: #f6f8fb;
+  margin-bottom: 7em;
 }
 
 section.weird-cars .inner {
-    display: flex;
-    gap: 2em;
+  display: flex;
+  gap: 2em;
 }
 
 /* Section Aside */
 
 .section.aside {
-    background-color: #F5F7FA;
-    border-top: 1px solid rgb(190, 190, 190);
+  background-color: #f5f7fa;
+  border-top: 1px solid rgb(190, 190, 190);
 }
 
 .section.aside .inner {
-    text-align: center;
-    padding: 4em;
+  text-align: center;
+  padding: 4em;
 }
 
 .section.aside .inner .text h3 {
-    font-weight: 200;
-    opacity: 0.6;
-    margin-bottom: 2.5em;
+  font-weight: 200;
+  opacity: 0.6;
+  margin-bottom: 2.5em;
 }
 
 .section.aside .inner .text p {
-    color: red;
-    font-size: 1.2em;
+  color: red;
+  font-size: 1.2em;
 }
 
 /* Section Footer */
 
 .section.site-footer {
-    background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 
 .section.site-footer .inner {
-    border-top: 1px solid rgb(190, 190, 190);
-    padding: 4em;
-    text-align: center;
-    font-size: 0.9em;
+  border-top: 1px solid rgb(190, 190, 190);
+  padding: 4em;
+  text-align: center;
+  font-size: 0.9em;
 }
