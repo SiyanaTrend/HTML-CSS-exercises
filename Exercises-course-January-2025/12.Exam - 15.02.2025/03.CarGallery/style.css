@@ -122,33 +122,35 @@ section.car-images .inner {
 
 .section.cards .inner {
     display: flex;
-    gap: 5em;
+    gap: 2em;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 section.cards .card {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    flex: 1 1 50%;
 }
 
 .section.cards h3, p {
     font-weight: 100;
     line-height: 1.8;
-    opacity: 0.7; 
+    opacity: 0.6; 
 }
 
 .section.cards .cards-buttons {
     text-align: center;
+    margin-top: 1.5em;
 }
 
 .section.cards .cards-buttons .button {
     font-size: 1em;
     line-height: 1;
     padding: 1em 2em;
-    border: 1px solid gray;
-    color: gray;
+    border: 1px solid rgb(168, 168, 168);
+    color: rgb(158, 156, 156);
     opacity: 0.7;
     background-color: transparent;
     text-decoration: none;
@@ -159,15 +161,20 @@ section.cards .card {
 /* Secttion Call-to-Action */
 
 .section.call-to-action {
-    background-color: #fff;
+    background-image: url("images/promo.jpg");
     margin-bottom: 4em;
 }
 
-.section.call-to-action .inner {
+.section.call-to-action .register {
     display: flex;
-    gap: 4em;
-    padding: 2em 0;
+    align-items: center;
+    padding: 5em;
+    gap: 1em;
 }
 
+.section.call-to-action p {
+    font-size: 1.5em;
+    color: white;
+}
 
 
