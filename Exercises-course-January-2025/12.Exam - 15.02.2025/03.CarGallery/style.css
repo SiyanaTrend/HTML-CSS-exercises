@@ -163,18 +163,35 @@ section.cards .card {
 .section.call-to-action {
     background-image: url("images/promo.jpg");
     margin-bottom: 4em;
+    padding: 3em 6em;
 }
 
 .section.call-to-action .register {
     display: flex;
     align-items: center;
-    padding: 5em;
+    justify-content: center;
+    padding: 1.8em 1.5em;
+    margin: 2em 12em;
     gap: 1em;
+    border: 1px solid rgb(211, 208, 208, 0.144);
+    border-radius: 0.5em;
+    background-color: rgba(252, 241, 241, 0.144);
 }
 
 .section.call-to-action p {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: white;
+    padding-bottom: 0;
 }
 
+.section.call-to-action .register-button .button {
+    font-size: 1em;
+    line-height: 1;
+    padding: 1em 2em;
+    border: 1px solid white;
+    color: #27636B;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
 
