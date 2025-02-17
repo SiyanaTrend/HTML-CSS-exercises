@@ -11,7 +11,7 @@ body {
 
 .section.site-header {
     margin-top: 0em;
-    background: #F3B19B;
+    background: linear-gradient(90deg, rgba(255,112,136,1) 23%, rgba(243,177,155,1) 58%);
 }
 
 .section.site-header .inner {
@@ -36,17 +36,17 @@ body {
 }
 
 .section.site-header nav a.active {
-    background: #F5BCAA;
     color: #fff;
     letter-spacing: 0.2em;
     border: 1px solid;
+    border-top: none;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
 
 .section.banner {
     margin-bottom: 2em;
-    background: #F3B19B;
+    background: linear-gradient(90deg, rgba(255,112,136,1) 23%, rgba(243,177,155,1) 58%);
 }
 
 .section.banner .inner {
