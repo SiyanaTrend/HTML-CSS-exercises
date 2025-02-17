@@ -162,7 +162,7 @@ section.cards .card {
 
 .section.call-to-action {
     background-image: url("images/promo.jpg");
-    margin-bottom: 4em;
+    margin-bottom: 7em;
     padding: 3em 6em;
 }
 
@@ -191,6 +191,35 @@ section.cards .card {
     border: 1px solid white;
     color: #27636B;
     background-color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+/* Section Main */
+
+.section.main {
+
+}
+
+.section.main .main {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.section.main .main h3 {
+    font-weight: 200;
+    opacity: 0.6;
+    margin-bottom: 2.5em;
+}
+
+.section.main .main-button .button {
+    font-size: 1em;
+    line-height: 1;
+    padding: 1em 1.8em;
+    border: 1px solid rgb(168, 168, 168);
+    color: rgb(158, 156, 156);
+    opacity: 0.9;
+    background-color: transparent;
     text-decoration: none;
     border-radius: 0.3rem;
 }
