@@ -224,3 +224,37 @@ section.cards .card {
     border-radius: 0.3rem;
 }
 
+/* Section Weird Cars */
+
+section.weird-cars {
+    background-color: #F6F8FB;
+    margin-bottom: 7em;
+}
+
+section.weird-cars .inner {
+    display: flex;
+    gap: 2em;
+}
+
+/* Section Aside */
+
+.section.aside {
+    background-color: #F5F7FA;
+    border-top: 1px solid gray;
+}
+
+.section.aside .inner {
+    text-align: center;
+    padding: 4em;
+}
+
+.section.aside .inner .text h3 {
+    font-weight: 200;
+    opacity: 0.6;
+    margin-bottom: 2.5em;
+}
+
+.section.aside .inner .text p {
+    color: red;
+    font-size: 1.2em;
+}
