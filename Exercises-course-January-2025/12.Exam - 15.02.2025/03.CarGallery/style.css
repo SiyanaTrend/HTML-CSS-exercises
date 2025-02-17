@@ -5,7 +5,7 @@ body {
 }
 
 .inner {
-    max-width: 1180px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -100,6 +100,18 @@ body {
     border-radius: 0.3rem;
     color: white;
 }
+
+
+section.car-images {
+    background-color: #F6F8FB;
+}
+
+
+section.car-images .inner {
+    display: flex;
+    gap: 2em;
+}
+
 
 
 .section.cards {
