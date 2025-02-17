@@ -162,18 +162,25 @@ section.cards .card {
 
 .section.call-to-action {
     background-image: url("images/promo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 7em;
     padding: 3em 6em;
 }
 
+.section.call-to-action .inner {
+    display: flex;
+    justify-content: center;
+}
+
 .section.call-to-action .register {
+    max-width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.8em 1.5em;
-    margin: 2em 12em;
     gap: 1em;
-    border: 1px solid rgb(211, 208, 208, 0.144);
+    border: 1px solid rgb(211, 208, 208, 0.200);
     border-radius: 0.5em;
     background-color: rgba(252, 241, 241, 0.144);
 }
@@ -185,6 +192,7 @@ section.cards .card {
 }
 
 .section.call-to-action .register-button .button {
+    display: block;
     font-size: 1em;
     line-height: 1;
     padding: 1em 2em;
@@ -196,10 +204,6 @@ section.cards .card {
 }
 
 /* Section Main */
-
-.section.main {
-
-}
 
 .section.main .main {
     text-align: center;
@@ -240,7 +244,7 @@ section.weird-cars .inner {
 
 .section.aside {
     background-color: #F5F7FA;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(190, 190, 190);
 }
 
 .section.aside .inner {
@@ -257,4 +261,17 @@ section.weird-cars .inner {
 .section.aside .inner .text p {
     color: red;
     font-size: 1.2em;
+}
+
+/* Section Footer */
+
+.section.site-footer {
+    background-color: #F5F7FA;
+}
+
+.section.site-footer .inner {
+    border-top: 1px solid rgb(190, 190, 190);
+    padding: 4em;
+    text-align: center;
+    font-size: 0.9em;
 }
