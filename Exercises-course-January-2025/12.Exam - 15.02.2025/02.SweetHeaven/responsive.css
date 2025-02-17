@@ -20,19 +20,12 @@
   }
 
   .nav-user-btns {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
   }
 
   .nav-user-btns > li > button {
     width: 100%;
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
   }
 
   .content-info {
@@ -48,12 +41,12 @@
   .content-info-welcome {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: auto;
   }
 
   .content-info-welcome h2 {
     font-size: 2.8em;
-    text-align: center;
   }
 
   .content-info-welcome p {
@@ -62,10 +55,9 @@
   }
 
   .content-info-welcome > button {
-    margin: 0 auto;
+    width: auto;
+    padding: 1em 2.9em;
     font-size: 0.9em;
-    color: rgba(8, 100, 112, 0.575);
-    background-color: transparent;
   }
 
   .content-services {
