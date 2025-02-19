@@ -1,6 +1,6 @@
-### Exercises HTML-CSS course /SoftUni/ - January 2024
+### Exercises HTML and CSS course /SoftUni/ - January 2024
 
-### Exercises HTML-CSS course /SoftUni/ - January 2025
+### Exercises HTML and CSS course /SoftUni/ - January 2025
 
 1.Introduction to HTML and CSS
 
