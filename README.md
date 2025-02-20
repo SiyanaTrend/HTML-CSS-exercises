@@ -58,3 +58,12 @@ This folder holds materials for the **January 2025** edition of the course. It f
 ### 4. Responsive Web Design
 - `07.Responsive-Web-Design-lab` - A session on creating mobile-first, responsive websites.
 - `08.Responsive-Web-Design-exercises` - Practical exercises for building adaptive web layouts.
+
+### 5. Working with Forms
+- `09.Working-With-Forms-lab` - A lab session covering form creation, validation, and accessibility.
+- `10.Working-With-Forms-exercises` - Exercises to implement form styling and interactivity.
+
+### 6. Exam Preparation and Final Exam
+- `11.Exam - Preparation` - Resources and practice tests to review key topics before the exam.
+- `12.Exam - 15.02.2025` - The final exam for the course, testing knowledge on HTML, CSS, and responsive design.
+
