@@ -1,27 +1,16 @@
-### Exercises HTML and CSS course /SoftUni/ - January 2024
 
-### Course Structure
+# Exercises HTML and CSS Course - SoftUni
 
-1. **Introduction to HTML and CSS**
-   - `01.Introduction-lab`
-   - `02.Introduction-exercises`
+## Overview
+This repository contains exercises and labs for the **HTML and CSS Course** at **SoftUni**, organized by year. The exercises cover fundamental and advanced topics in web development, including typography, box model, positioning, Flexbox, responsive design, and forms.
 
-2. **Typography**
-   - `03.Typography-lab`
-   - `04.Typography-exercises`
+## Folder Structure
 
-3. **Box Model and Positioning**
-   - `05.Box-Model-and-Position-lab`
-   - `06.Box-Model-and-Position-exercises`
+### **Exercises-2024**
+This folder contains exercises and labs for the **January 2024** edition of the course. It covers foundational concepts, including typography, the CSS box model, Flexbox, and responsive web design. Each topic has dedicated labs and exercises to reinforce learning.
 
-4. **Flexbox**
-   - `07.Flexbox-lab`
-   - `08.Flexbox-exercise`
+### **Exercises-2025**
+This folder holds materials for the **January 2025** edition of the course. It follows a similar structure to the 2024 course but may include updates or improvements. The content is divided into sections covering **CSS layout techniques, responsive design, and working with forms**, along with an **exam preparation module** and the **final exam**.
 
-5. **Responsive Web Design**
-   - `09.Responsive-Web-Design-lab`
-   - `10.Responsive-Web-Design-exercises`
-
-6. **Working with Forms**
-   - `11.Working-With-Forms-lab`
+---
 
