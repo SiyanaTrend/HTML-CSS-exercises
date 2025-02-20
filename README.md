@@ -14,3 +14,13 @@ This folder holds materials for the **January 2025** edition of the course. It f
 
 ---
 
+## **Exercises-2024**
+
+### 1. Introduction to HTML and CSS
+- `01.Introduction-lab` - A guided lab to introduce basic HTML and CSS concepts.
+- `02.Introduction-exercises` - Hands-on exercises to practice fundamental HTML and CSS syntax.
+
+### 2. Typography
+- `03.Typography-lab` - A practical lab to explore font styling, text properties, and typography best practices.
+- `04.Typography-exercises` - Exercises to reinforce typography concepts such as font families, sizes, and line spacing.
+
