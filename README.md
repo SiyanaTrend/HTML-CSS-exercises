@@ -50,3 +50,11 @@ This folder holds materials for the **January 2025** edition of the course. It f
 ### 2. CSS Box Model and Typography
 - `03.CSS Box Model and Typography-lab` - A lab on understanding how elements are structured within the box model and typography styling.
 - `04.CSS Box Model and Typography-exercises` - Practical exercises to apply typography and box model concepts.
+
+### 3. CSS Layout - Flexbox
+- `05.CSS-Layout-Flexbox-lab` - A detailed walkthrough on using Flexbox for layout design.
+- `06.CSS-Layout-Flexbox-exercises` - Hands-on exercises to practice Flexbox-based layouts.
+
+### 4. Responsive Web Design
+- `07.Responsive-Web-Design-lab` - A session on creating mobile-first, responsive websites.
+- `08.Responsive-Web-Design-exercises` - Practical exercises for building adaptive web layouts.
