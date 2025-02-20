@@ -40,3 +40,13 @@ This folder holds materials for the **January 2025** edition of the course. It f
 - `11.Working-With-Forms-lab` - A practical session on creating and styling HTML forms, including input types and validation.
 
 ---
+
+## **Exercises-2025**
+
+### 1. Introduction to HTML and CSS
+- `01.Introduction-lab` - Basic introduction to HTML and CSS structure.
+- `02.Introduction-exercises` - Exercises to practice HTML elements and CSS rules.
+
+### 2. CSS Box Model and Typography
+- `03.CSS Box Model and Typography-lab` - A lab on understanding how elements are structured within the box model and typography styling.
+- `04.CSS Box Model and Typography-exercises` - Practical exercises to apply typography and box model concepts.
