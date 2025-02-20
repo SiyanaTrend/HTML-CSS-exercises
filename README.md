@@ -24,3 +24,10 @@ This folder holds materials for the **January 2025** edition of the course. It f
 - `03.Typography-lab` - A practical lab to explore font styling, text properties, and typography best practices.
 - `04.Typography-exercises` - Exercises to reinforce typography concepts such as font families, sizes, and line spacing.
 
+### 3. Box Model and Positioning
+- `05.Box-Model-and-Position-lab` - A structured lab covering the box model, padding, margins, borders, and positioning techniques.
+- `06.Box-Model-and-Position-exercises` - Practice tasks to solidify knowledge of positioning (static, relative, absolute, and fixed).
+
+### 4. Flexbox
+- `07.Flexbox-lab` - A guided tutorial to understand flexbox layouts and their properties.
+- `08.Flexbox-exercise` - Exercises to build flexible and responsive page layouts using flexbox.
