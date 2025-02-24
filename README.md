@@ -1,5 +1,5 @@
 
-# Exercises HTML and CSS Course - SoftUni
+# HTML and CSS Course - SoftUni
 
 ## Overview
 This repository contains exercises and labs for the **HTML and CSS Course** at **SoftUni**, organized by year. The exercises cover fundamental and advanced topics in web development, including typography, box model, positioning, flexbox, responsive design, and forms.
