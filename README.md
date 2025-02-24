@@ -30,7 +30,7 @@ This folder holds materials for the **January 2025** edition of the course. The 
 
 ### 4. Flexbox
 - `07.Flexbox-lab` - A guided tutorial to understand flexbox layouts and their properties.
-- `08.Flexbox-exercise` - Exercises to build flexible and responsive page layouts using flexbox.
+- `08.Flexbox-exercise` - Exercises to build flexible and responsive page layouts.
 
 ### 5. Responsive Web Design
 - `09.Responsive-Web-Design-lab` - A lab to introduce media queries and responsive design principles.
