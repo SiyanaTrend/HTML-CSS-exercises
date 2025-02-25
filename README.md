@@ -53,7 +53,7 @@ This folder holds materials for the **January 2025** edition of the course. The 
 
 ### 3. CSS Layout - Flexbox
 - `05.CSS-Layout-Flexbox-lab` - A detailed walkthrough on using Flexbox for layout design.
-- `06.CSS-Layout-Flexbox-exercises` - Hands-on exercises to practice Flexbox-based layouts.
+- `06.CSS-Layout-Flexbox-exercises` - Hands-on exercises to practice flexbox-based layouts.
 
 ### 4. Responsive Web Design
 - `07.Responsive-Web-Design-lab` - A session on creating mobile-first, responsive websites.
