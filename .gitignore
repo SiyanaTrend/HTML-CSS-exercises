@@ -42,7 +42,12 @@ desktop.ini          # Windows system file
 *.jpeg  
 
 # Files that should not be ignored 
+
 !Exercises-course-January-2024/06.Box-Model-and-Position-exercises/12.Navigation-float/images/*.jpg
+
+!Exercises-course-January-2024/06.Box-Model-and-Position-exercises/13.New-Offer/new.png
+
+!Exercises-course-January-2024/06.Box-Model-and-Position-exercises/13.New-Offer/cup.jpg
 
 !Exercises-course-January-2025/06.CSS-Layout-Flexbox-exercises/05.Photo - Gallery/images/*.jpg
 
