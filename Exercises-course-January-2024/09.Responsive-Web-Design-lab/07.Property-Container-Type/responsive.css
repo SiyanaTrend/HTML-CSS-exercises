@@ -1,4 +1,4 @@
-/* изисква родителя(post) да бъде контейнер, за да стилизираме картичката(card) */
+/* post is required to be a container, so that the card could be styled */
 .post {
   container-type: inline-size;
   container-name: post;
