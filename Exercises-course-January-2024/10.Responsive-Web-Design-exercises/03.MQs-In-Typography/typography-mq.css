@@ -14,7 +14,7 @@ html {
 
 body {
     font: inherit;
-    margin: 2em 10em;
+    margin: 2em 5em;
     background: rgb(238, 238, 238);
     display: flex;
     justify-content: center;
@@ -138,6 +138,10 @@ aside li a {
 
     .content {
         gap: 4em;
+    }
+
+    .photo {
+        flex: 1 1 auto;
     }
 
     .section .text {
