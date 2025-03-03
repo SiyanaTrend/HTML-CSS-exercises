@@ -8,9 +8,7 @@ html {
   font: 14px/1.5 Arial, Helvetica, sans-serif;
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: inherit;
 }
 
@@ -48,9 +46,7 @@ body > * {
   display: flex;
 }
 
-.title p,
-.days p,
-.notes p {
+.title p, .days p, .notes p {
   flex-grow: 1;
   padding: 1.5em;
   border: 2px solid #eee;
