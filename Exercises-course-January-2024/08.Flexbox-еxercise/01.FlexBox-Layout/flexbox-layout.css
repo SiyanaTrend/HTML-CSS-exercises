@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   padding: 5rem;
   background-color: #eee;
@@ -10,6 +11,7 @@ body {
   flex-wrap: wrap;
   gap: 2em;
 }
+
 body > * {
   background-color: #fff;
   padding: 1em;
@@ -17,18 +19,19 @@ body > * {
   border-radius: 0.3em;
   box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
 }
-main,
-aside {
+
+main, aside {
   min-height: 400px;
 }
 
-header,
-footer {
+header, footer {
   flex-basis: 100%;
 }
+
 main {
   flex: 1 0 70%;
 }
+
 aside {
   flex: 1 1 auto;
 }
