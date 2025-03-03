@@ -2,18 +2,21 @@ html {
   font-family: Helvetica, sans-serif;
   line-height: 1.5;
 }
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
 }
+
 section {
   max-width: 70vw;
   display: flex;
   justify-content: space-between;
   gap: 2.5em;
 }
+
 article h2 {
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.2;
