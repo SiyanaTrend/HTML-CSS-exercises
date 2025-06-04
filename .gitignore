@@ -39,7 +39,8 @@ desktop.ini          # Windows system file
 *.txt  
 *.jpg  
 *.gif  
-*.jpeg  
+*.jpeg 
+*.pdf 
 
 # Files that should not be ignored 
 
@@ -68,3 +69,11 @@ desktop.ini          # Windows system file
 !Exercises-course-January-2025/12.Exam - 15.02.2025/03.CarGallery/images/*.jpeg
 
 !Exercises-course-January-2025/12.Exam - 15.02.2025/03.CarGallery/images/*.jpg
+
+!Exercises-course-January-2025/13.Exam - 10.04.2025/01.OurService/img/*.jpg
+
+!Exercises-course-January-2025/13.Exam - 10.04.2025/02.TechShop/img/*.png
+
+!Exercises-course-January-2025/13.Exam - 10.04.2025/03.FoodMenu/img/*.jpg
+
+!Exercises-course-January-2025/13.Exam - 10.04.2025/03.FoodMenu/img/*.png
