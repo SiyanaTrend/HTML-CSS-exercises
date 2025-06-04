@@ -1,0 +1,227 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #ffffff;
+}
+
+.inner {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+
+.section.site-header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 3em;
+}
+
+.section.site-header .inner {
+  display: flex;
+  padding: 0 2em;
+}
+
+.section.site-header .site-branding {
+  display: flex;
+  gap: 0.5em;
+  align-self: center;
+}
+
+.section.site-header .site-logo {
+  width: 10%;
+}
+
+.section.site-header .site-description {
+  text-transform: uppercase;
+  font-family: " Bebas Neue", serif;
+  font-weight: 800;
+  font-size: 1.8em;
+  letter-spacing: -0.1em;
+  line-height: 2;
+}
+
+.section.site-header nav {
+  align-self: center;
+}
+
+.section.site-header nav ul {
+  display: flex;
+  gap: 1em;
+}
+
+.section.site-header nav a,
+.section.site-header nav li {
+  text-decoration: none;
+  list-style: none;
+  color: #fa6687;
+  font-weight: 500;
+}
+
+/* Section Search */
+
+.section.site-search .inner {
+  background-image: url("img/search_area_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 4em;
+  padding: 2em 0em;
+  display: flex;
+  justify-content: center;
+}
+
+.section.site-search .search {
+  display: flex;
+  padding: 1.5em 4em;
+  gap: 0.5em;
+  width: 80%;
+}
+
+.section.site-search .search input {
+  border-radius: 0.3rem;
+  border: white;
+  padding: 0.5em 1.5em;
+  flex-grow: 4;
+}
+
+section.site-search button {
+  display: block;
+  padding: 0.5em 2em;
+  color: white;
+  background-color: #fa6687;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  border: #fa6687;
+  flex-grow: 1;
+}
+
+/* Section Cards */
+
+.section.cards .inner {
+  padding: 1em 3em;
+}
+.section.cards h1 {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+.section.cards .cards-article {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.section.cards .cards-article .card {
+  display: flex;
+  gap: 0.5em;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.section.cards .card-content {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: #fa6687;
+  border-radius: 0.3em;
+  opacity: 0.8;
+}
+
+.section.cards .card-content p {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* Section Menu */
+
+.section.menu .inner {
+  display: flex;
+  background-color: #ececec;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.section.menu .menu-article {
+  display: flex;
+  gap: 2em;
+  margin: 2em;
+  flex-wrap: wrap;
+}
+
+.section.menu .menu-article .menu-card {
+  max-width: 440px;
+  display: flex;
+  gap: 2em;
+}
+
+.section.menu .menu-article .menu-card img {
+  width: 60%;
+  aspect-ratio: 1/2;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.section.menu .menu-article .menu-card h3 {
+  font-size: 1.3em;
+}
+
+.section.menu .menu-article .menu-card .price {
+  color: #fa6687;
+  font-weight: bold;
+}
+
+.section.menu .menu-article .menu-card p {
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+.section.menu .menu-article .menu-card a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #fa6687;
+  border-radius: 0.9em;
+  padding: 0.5em;
+}
+
+section.menu .menu-foods {
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+section.menu .menu-foods a {
+  color: purple;
+}
+
+.socials {
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  color: #fa6687;
+  font-size: 1.5em;
+  width: 40px;
+  height: 40px;
+  margin: 0.5 0.7em;
+  line-height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer a {
+  color: purple;
+}
