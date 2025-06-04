@@ -66,4 +66,5 @@ This folder holds materials for the **January 2025** edition of the course. The 
 ### 6. Exam Preparation and Final Exam
 - `11.Exam - Preparation` - Resources and practice tests to review key topics before the exam.
 - `12.Exam - 15.02.2025` - The final exam for the course, testing knowledge on HTML, CSS, and responsive design.
+- `13.Exam - 10.04.2025` - The retake exam for the course, testing knowledge on HTML, CSS, and responsive design.
 
